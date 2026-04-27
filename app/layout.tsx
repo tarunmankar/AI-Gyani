@@ -30,7 +30,17 @@ export const metadata: Metadata = {
     images: ['/og-default.png'],
     creator: '@aigyani',
   },
-  robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+  robots: { 
+    index: true, 
+    follow: true, 
+    googleBot: { 
+      index: true, 
+      follow: true, 
+      'max-image-preview': 'large',
+      'max-video-preview': -1,
+      'max-snippet': -1
+    } 
+  },
   alternates: { canonical: 'https://www.aigyani.in' },
 };
 

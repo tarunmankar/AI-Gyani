@@ -40,3 +40,10 @@ Inme se koi ek use karein:
 - `[Link Text](URL)`
 - `![Alt Text](/image-path.jpg)`
 - Code blocks ke liye backticks use karein.
+
+## 4. Image Rules (Google Discover SEO)
+- **Width:** Kam se kam 1200px honi chahiye.
+- **Aspect Ratio:** 16:9 (Jaise 1200x675px ya 1200x630px).
+- **Quality:** High resolution, blur nahi hona chahiye.
+- **Logo:** Image mein logo ko main image mat banayein.
+- Har post mein 1 Hero Image (Top) aur 1-2 In-content images rakhna best hai.
