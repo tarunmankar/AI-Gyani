@@ -6,6 +6,7 @@ import { extractToc } from '@/lib/posts';
 import Breadcrumb from '@/components/blog/Breadcrumb';
 import TableOfContents from '@/components/blog/TableOfContents';
 import RelatedPosts from '@/components/blog/RelatedPosts';
+import ShareButtons from '@/components/blog/ShareButtons';
 import JsonLd, { articleSchema, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 interface Props {
@@ -100,6 +101,7 @@ export default async function PostPage({ params }: Props) {
               itemType="https://schema.org/Article"
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
+            <ShareButtons url={`${BASE_URL}/blog/${slug}`} title={frontmatter.title} />
             <RelatedPosts posts={relatedPosts} />
           </div>
 
