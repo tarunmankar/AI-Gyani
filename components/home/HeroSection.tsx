@@ -29,20 +29,6 @@ export default function HeroSection() {
             </Link>
           </div>
 
-          <div className="hero-stats">
-            <div className="hero-stat">
-              <strong>552+</strong>
-              <span>Tutorials aane wale hain</span>
-            </div>
-            <div className="hero-stat">
-              <strong>9</strong>
-              <span>Categories</span>
-            </div>
-            <div className="hero-stat">
-              <strong>Free</strong>
-              <span>Bilkul muft</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
