@@ -47,3 +47,11 @@ Inme se koi ek use karein:
 - **Quality:** High resolution, blur nahi hona chahiye.
 - **Logo:** Image mein logo ko main image mat banayein.
 - Har post mein 1 Hero Image (Top) aur 1-2 In-content images rakhna best hai.
+
+## 5. Post Writing Rules (SEO & Tone)
+- **Tone:** Natural Hinglish (Hindi + English mix). Conversational, simple, informal, relatable. Use "socho", "maan lo", "simple si baat". No textbook wording!
+- **Length:** 1800–2500 words (ya 1200-1600 simple topics ke liye).
+- **Paragraphs:** Short (2-4 lines).
+- **Structure:** Strong hook in 2-3 lines. Use clear H2/H3 headings. Add mini stories and analogies.
+- **SEO Rules:** Primary keyword in Title, first 100 words, and 1-2 H2s. Add 3-5 FAQs at the end.
+- **CTA:** End with a practical conclusion + CTA (share, explore, bookmark).
