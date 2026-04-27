@@ -5,11 +5,10 @@ const categories = getAllCategories();
 
 const quickLinks = [
   { href: '/', label: 'Home' },
-  { href: '/blog', label: 'Sab Tutorials' },
-  { href: '/category/ai-basics', label: 'AI Basics' },
-  { href: '/category/machine-learning', label: 'Machine Learning' },
-  { href: '/category/deep-learning', label: 'Deep Learning' },
-  { href: '/category/generative-ai-llms', label: 'Generative AI' },
+  { href: '/blog', label: 'All Tutorials' },
+  { href: '/category/projects-deployment', label: 'Projects' },
+  { href: '/about', label: 'About Us' },
+  { href: '/contact', label: 'Contact Us' },
 ];
 
 export default function Footer() {

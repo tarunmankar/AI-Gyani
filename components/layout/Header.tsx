@@ -50,6 +50,10 @@ export default function Header() {
                   ))}
                 </div>
               </div>
+
+              <Link href="/category/projects-deployment" className={`nav-link${pathname === '/category/projects-deployment' ? ' active' : ''}`}>Projects</Link>
+              <Link href="/about" className={`nav-link${pathname === '/about' ? ' active' : ''}`}>About</Link>
+              <Link href="/contact" className={`nav-link${pathname === '/contact' ? ' active' : ''}`}>Contact</Link>
             </nav>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -86,6 +90,11 @@ export default function Header() {
             </Link>
           ))}
         </div>
+        
+        <Link href="/category/projects-deployment" className={`nav-link${pathname === '/category/projects-deployment' ? ' active' : ''}`} onClick={() => setMenuOpen(false)}>Projects</Link>
+        <Link href="/about" className={`nav-link${pathname === '/about' ? ' active' : ''}`} onClick={() => setMenuOpen(false)}>About</Link>
+        <Link href="/contact" className={`nav-link${pathname === '/contact' ? ' active' : ''}`} onClick={() => setMenuOpen(false)}>Contact</Link>
+
         <Link href="/blog" className="btn btn-primary mt-4" onClick={() => setMenuOpen(false)}>
           Sab Tutorials Dekhein →
         </Link>
