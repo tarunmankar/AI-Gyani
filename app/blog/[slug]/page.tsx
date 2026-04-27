@@ -7,6 +7,7 @@ import Breadcrumb from '@/components/blog/Breadcrumb';
 import TableOfContents from '@/components/blog/TableOfContents';
 import RelatedPosts from '@/components/blog/RelatedPosts';
 import ShareButtons from '@/components/blog/ShareButtons';
+import AuthorBio from '@/components/blog/AuthorBio';
 import JsonLd, { articleSchema, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 interface Props {
@@ -77,7 +78,7 @@ export default async function PostPage({ params }: Props) {
               <div className="author-avatar" style={{ width: '36px', height: '36px', fontSize: '1rem' }}>T</div>
               <div style={{ marginLeft: '10px' }}>
                 <div className="author-name" style={{ fontSize: '14px' }}>{frontmatter.author || 'Tarun'}</div>
-                <div className="author-label">AI Educator</div>
+                <div className="author-label">Software Engineer &amp; AI Content Creator</div>
               </div>
             </div>
             <span>·</span>
@@ -101,6 +102,7 @@ export default async function PostPage({ params }: Props) {
               itemType="https://schema.org/Article"
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
+            <AuthorBio />
             <ShareButtons url={`${BASE_URL}/blog/${slug}`} title={frontmatter.title} />
             <RelatedPosts posts={relatedPosts} />
           </div>

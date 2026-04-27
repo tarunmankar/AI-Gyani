@@ -152,8 +152,6 @@ Kuch algorithms scaling se affect nahi hote:
 
 Lekin in algorithms ke liye bhi scaling karna harm nahi karta!
 
-## Conclusion
+Feature Scaling pehle mere liye sirf ek optional step lagta tha, lekin jab maine Linear Regression model bina scaling ke banaya, toh result bahut ajeeb aaye! Tab samajh aaya ki scaling sirf accuracy nahi, balki model ke 'survival' ke liye zaroori hai. Yaad rakhiye — **pehle scale karo, phir train karo!**
 
-Feature Scaling ek simple lekin bahut important step hai jo aapke ML model ki accuracy dramatically improve kar sakta hai. Har baar jab aap koi new dataset use karein, **pehle scale karo, phir train karo!**
-
-Yeh tha hamare **Math for AI** series ka akhri topic — Feature Scaling. Ab aap AI ke liye zaroori Mathematics poori kar chuke hain! Agla safar hai **Machine Learning** — jahan hum in sab concepts ko mila kar real AI models banayenge!
+Yeh tha hamare **Math for AI** series ka akhri topic. Honestly, aapne bahut accha kiya agar aap yahan tak pahunche hain. Math se darna normal hai, lekin ise samajhna superpower hai. Ab hum bilkul taiyaar hain **Machine Learning** ki duniya mein kadam rakhne ke liye. Agla tutorial miss mat karna!

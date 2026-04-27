@@ -14,9 +14,7 @@ order: 32
 
 ![Statistics Basics: Mean, Median, Mode — Data Science ke liye](/images/statistics_mean_median_mode.png)
 
-Data Science aur AI ki duniya mein aapka sawaal hamesha yahi hota hai: **"Is data ke baare mein sabse zaroori baat kya hai?"**
-
-Aur iska sabse pehla jawaab hota hai Statistics — woh tools jo aapko data ka ek chota sa summary dete hain. Aaj hum sikhenge 3 sabse important statistics: **Mean, Median, aur Mode**.
+Jab mujhe pehli baar kisi ne kaha ki Machine Learning ke liye Statistics zaroori hai, toh main thoda dara. Math mein kabhi zyada interest nahi tha. Lekin jab mujhe pata chala ki Mean, Median sirf 3 simple cheezein hain — toh lagaa, yaar itna simple tha? Chaliye same realisation aapko bhi 5 minute mein de deta hoon.
 
 ## 1. Mean (Average) — Sabse Common
 
@@ -107,8 +105,6 @@ print(f"Mode salary: ₹{stats.mode(salaries).mode[0]:,.0f}") # ₹30,000 — Sa
 
 Isliye jab log kehte hain "Average salary ₹2 lakh hai" — dhyan raho, median zyada honest hoti hai!
 
-## Conclusion
+Mean, Median, aur Mode sirf statistics nahi, balki data ki aankhein hain. Inke bina aap sirf andhere mein teer maar rahe hote ho. Jab bhi aapke paas koi naya dataset aaye, sabse pehle yahi teen cheezein calculate karein — reality wahan dikhti hai jahan average (mean) fail ho jata hai.
 
-Mean, Median, aur Mode Data Science ke first step hain. Jab bhi aapke paas koi naya dataset aaye, sabse pehle yahi teen cheezein calculate karein — isse aapko data ki basic samajh milti hai.
-
-Agla topic hai **Probability Basics** — jahan hum sikhenge ki AI kaise 90% ya 70% confident hota hai kisi prediction mein!
+Agla topic hai **Probability Basics** — jahan hum sikhenge ki AI kaise bolta hai '90% chance hai ki ye billi hai'! Taiyaar ho?

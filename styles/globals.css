@@ -570,3 +570,58 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
 }
+
+/* ── Author Bio ── */
+.author-bio-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 32px;
+  background: var(--bg-alt);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border);
+  margin: 48px 0;
+}
+
+.author-bio-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.author-bio-name {
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.author-bio-role {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.author-bio-text {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .author-bio-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 24px;
+  }
+}
