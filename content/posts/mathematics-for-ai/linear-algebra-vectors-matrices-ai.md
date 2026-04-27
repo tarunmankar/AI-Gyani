@@ -12,6 +12,8 @@ tableOfContents: true
 order: 29
 ---
 
+![Linear Algebra: Vectors aur Matrices (AI ke liye aasaan Hindi mein)](/images/linear_algebra_ai.png)
+
 Machine Learning me **Linear Algebra** wo language hai jisme Data baat karta hai. Computer kisi word, rang (color), ya awaz ko directly nahi samajh sakta. Use sab kuch Numbers me chahiye hota hai. Inhi numbers ko systematically organize karna hi Linear Algebra kehlata hai.
 
 Is post me hum 3 sabse ahem words samjhenge: **Scalar, Vector, aur Matrix**.

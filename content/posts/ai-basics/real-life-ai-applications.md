@@ -14,6 +14,8 @@ tableOfContents: true
 order: 6
 ---
 
+![Real-Life AI Applications](/images/ai-applications.png)
+
 Jab bhi "AI" shabd sunayi deta hai, toh bahut se logo ke dimaag me abhi bhi Hollywood movies wale sci-fi robots aate hain. Lekin kya aapko pata hai ki AI pehle hi chupke se hamari real life mein enter kar chuka hai? 
 
 Socho, subah uthte hi aap apna phone face se unlock karte ho—wo AI hai. 

@@ -14,6 +14,8 @@ tableOfContents: true
 order: 18
 ---
 
+![Python Functions kya hote hain? Beginner Guide](/images/python-functions.png)
+
 Pichle kuch posts mein humne variables, loops, aur conditions seekhe. Agar aapne unhe try kiya hoga, toh aapko realise hua hoga ki jab code thoda bada hone lagta hai, toh use padhna aur manage karna mushkil ho jata hai.
 
 Khaaskar tab, jab aapko ek hi kaam (jaise GST calculate karna ya Image ka size chhota karna) baar-baar apne program mein alag-alag jagah par karna ho. Kya aap baar-baar same code copy-paste karenge? 

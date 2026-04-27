@@ -12,6 +12,8 @@ tableOfContents: true
 order: 23
 ---
 
+![Pandas Crash Course: Data Analysis ke liye Python Library](/images/pandas_crash_course.png)
+
 Machine Learning models data par chalte hain. Lekin data hamesha saaf aur ready nahi hota. Aksar data CSV files, Excel sheets ya databases mein hota hai. Is raw data ko samajhne aur saaf karne ke liye Python ki ek superhero library hai: **Pandas**. 
 
 ## 1. Pandas Kya Hai?

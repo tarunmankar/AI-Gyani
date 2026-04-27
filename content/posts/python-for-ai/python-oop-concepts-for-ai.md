@@ -14,6 +14,8 @@ tableOfContents: true
 order: 19
 ---
 
+![Python OOP Concepts for AI (Classes aur Objects)](/images/python-oop.png)
+
 Agar aapne ab tak Python ke basics (Loops, Variables, Functions) achhe se samajh liye hain, toh badhai ho! Aap code likhna seekh gaye hain. Lekin ab hum ek aisi duniya mein kadam rakhne wale hain jo aapke sochne ke tarike ko puri tarah badal dega.
 
 Welcome to **Object-Oriented Programming (OOPs)**!

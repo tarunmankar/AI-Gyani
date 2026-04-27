@@ -12,6 +12,8 @@ tableOfContents: true
 order: 33
 ---
 
+![Probability Basics for AI Beginners — Asaan Hinglish Mein](/images/probability_basics_ai.png)
+
 Kya aapne kabhi socha ki ChatGPT ya koi AI model jab jawab deta hai, toh wo "confident" kaise hota hai? Ya image recognition AI kaise bolta hai "95% chance hai ki ye billi hai"?
 
 Isका jawaab hai **Probability** — ek mathematical tool jo uncertainty (anapne) ko numbers mein express karta hai.

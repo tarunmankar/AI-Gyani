@@ -14,6 +14,8 @@ tableOfContents: true
 order: 5
 ---
 
+![AI vs Human Intelligence](/images/ai-vs-human.png)
+
 Jab bhi AI koi naya kamaal karta hai—jaise ChatGPT ka ek second mein puri book likh dena, ya Midjourney ka ek mast painting bana dena—toh hamare dimaag mein ek dar aur sawal zarur aata hai. 
 
 *"Kya ye machine mujhse zyada smart ho gayi hai?"*

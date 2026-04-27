@@ -12,6 +12,8 @@ tableOfContents: true
 order: 34
 ---
 
+![Bayes Theorem Simple Explanation — AI ka Jadoo Samjho](/images/bayes_theorem_ai.png)
+
 Kaafi AI algorithms ka dil ek aisa theorem hai jise ek 18th century ke Anglican minister ne discover kiya tha — **Thomas Bayes**. Unka formula aaj bhi spam filters se lekar medical diagnosis AI tak sab jagah kaam karta hai.
 
 Aaiye ise doctor aur bimari wale ek asaan example se samjhein — bina kisi complex formula ke!

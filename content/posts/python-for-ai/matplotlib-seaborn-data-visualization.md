@@ -12,6 +12,8 @@ tableOfContents: true
 order: 24
 ---
 
+![Data Visualization: Matplotlib aur Seaborn Tutorial in Hindi](/images/matplotlib_seaborn_viz.png)
+
 Ek purani kahawat hai, "Ek picture hazar shabdo ke barabar hoti hai." Data Science aur AI mein bhi ye baat bilkul sach hai. Jab aapke paas lakho rows ka data ho, to numbers dekh kar pattern samajhna mushkil hota hai. Yahin kaam aati hain **Matplotlib** aur **Seaborn** libraries!
 
 Is post mein hum in dono libraries ko use karke data se sundar charts aur graphs banana seekhenge.

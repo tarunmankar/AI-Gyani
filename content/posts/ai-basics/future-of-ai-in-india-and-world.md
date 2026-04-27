@@ -14,6 +14,8 @@ tableOfContents: true
 order: 11
 ---
 
+![Future of AI in India aur World](/images/future-of-ai.png)
+
 Pichle sirf 2-3 saalo mein AI ne jo progress ki hai, wo insaani itihaas (history) mein kabhi kisi technology ne itni jaldi nahi ki. Jab ChatGPT aaya tha, tab duniya ko laga tha "Waah, kya kamaal hai!" Lekin wo toh sirf ek trailer tha. Asli movie toh abhi baaki hai.
 
 Bahut se logo ke dimaag me ek bada sawal ghoomta hai: **"Agle 5 saal me AI kahan tak pahuch jayega? Aur sabse zaroori baat, iska hamare desh, India par kya asar padega?"**

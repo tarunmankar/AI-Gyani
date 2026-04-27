@@ -14,6 +14,8 @@ tableOfContents: true
 order: 4
 ---
 
+![AI vs ML vs Deep Learning](/images/ai-ml-dl.png)
+
 Aaj kal har jagah AI ka jadoo chhaya hua hai. Jab bhi aap koi tech news padhte hain ya YouTube video dekhte hain, toh teen words baar-baar sunne ko milte hain: **Artificial Intelligence (AI), Machine Learning (ML), aur Deep Learning (DL).**
 
 Bahut se logo ko lagta hai ki ye teeno ek hi cheez ke alag-alag naam hain. Lekin asli baat ye hai ki inmein bahut bada farq hai! Agar aap AI ke field mein apna career banana chahte hain ya sirf is technology ko deeply samajhna chahte hain, toh inka difference pata hona bahut zaroori hai.

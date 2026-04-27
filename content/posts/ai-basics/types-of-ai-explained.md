@@ -14,6 +14,8 @@ tableOfContents: true
 order: 3
 ---
 
+![Types of AI Explained](/images/types-of-ai.png)
+
 Socho aap apne phone se kehte ho, "Siri, aaj ka mausam kaisa hai?" aur wo turant jawab de deti hai. Aapko lagta hai ki wah, meri machine kitni smart hai! Lekin asli baat ye hai ki aapka phone sirf ek "Type" ka AI use kar raha hai. 
 
 Duniya mein logo ko lagta hai ki sabhi AI ek jaise hote hain, ya phir AI ka matlab seedha Terminator movie ka robot hai jo duniya par kabza kar lega. Lekin sachai isse bilkul alag hai.

@@ -12,6 +12,8 @@ tableOfContents: true
 order: 25
 ---
 
+![Python me File Handling: CSV aur JSON kaise padhein](/images/python_file_handling.png)
+
 Aapne Python me variables aur list banana to seekh liya, lekin asli zindagi me AI models ko jo data milta hai wo external files se aata hai. Yeh files aam taur par **CSV** (Excel format) ya **JSON** format me hoti hain. 
 
 Is post me hum samjhenge ki in files ko Python me kaise padha (read) aur likha (write) jata hai.

@@ -14,6 +14,8 @@ tableOfContents: true
 order: 2
 ---
 
+![Artificial Intelligence Ka Itihas](/images/ai-history.png)
+
 Kya aapko lagta hai ki AI pichle 2-4 saal mein achanak se aa gaya hai? Agar haan, toh aap akele nahi hain. Bahut se logo ko lagta hai ki ChatGPT ke aane ke baad hi AI ka janam hua hai.
 
 Lekin asli baat ye hai ki **Artificial Intelligence ka itihas** utna hi purana hai jitne hamare computers. Ye kahani kisi sci-fi movie se kam nahi hai, jisme ummeed, nirasha aur phir ek dhamakedar comeback shamil hai.

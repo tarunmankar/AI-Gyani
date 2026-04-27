@@ -14,6 +14,8 @@ tableOfContents: true
 order: 12
 ---
 
+![AI Terms Explained](/images/ai-terms-explained.png)
+
 Aap internet par article padh rahe hote hain, ya kisi dost se baat kar rahe hote hain, aur achanak wahan koi kehta hai: *"Bhai, isme naya LLM model use hua hai jo NLP aur Neural Networks par kaam karta hai."*
 
 Aur aapka reaction hota hai: *"Bhai, ye kis alien bhasha mein baat kar raha hai?"*

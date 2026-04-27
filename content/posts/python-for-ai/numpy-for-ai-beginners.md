@@ -12,6 +12,8 @@ tableOfContents: true
 order: 22
 ---
 
+![NumPy Tutorial in Hindi: AI ke liye Array aur Math](/images/numpy_ai_beginners.png)
+
 Machine Learning aur AI mein humesha **Data** aur **Numbers** ki baat hoti hai. Lakhon numbers ko ek sath calculate karne ke liye normal Python list bahut slow hoti hai. Yahin entry hoti hai **NumPy** ki! Is post mein hum NumPy ke basics samjhenge.
 
 ## 1. NumPy Kya Hai?

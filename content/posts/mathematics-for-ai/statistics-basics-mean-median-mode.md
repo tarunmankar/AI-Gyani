@@ -12,6 +12,8 @@ tableOfContents: true
 order: 32
 ---
 
+![Statistics Basics: Mean, Median, Mode — Data Science ke liye](/images/statistics_mean_median_mode.png)
+
 Data Science aur AI ki duniya mein aapka sawaal hamesha yahi hota hai: **"Is data ke baare mein sabse zaroori baat kya hai?"**
 
 Aur iska sabse pehla jawaab hota hai Statistics — woh tools jo aapko data ka ek chota sa summary dete hain. Aaj hum sikhenge 3 sabse important statistics: **Mean, Median, aur Mode**.

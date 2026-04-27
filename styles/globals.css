@@ -560,3 +560,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   color: var(--primary) !important;
   background: var(--primary-light) !important;
 }
+
+/* ── Markdown Post Images ── */
+.prose img {
+  display: block;
+  max-width: 100%;
+  width: 700px; /* Reduced size */
+  margin: 32px auto; /* Centered */
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}

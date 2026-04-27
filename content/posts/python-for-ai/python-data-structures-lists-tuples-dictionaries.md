@@ -14,6 +14,8 @@ tableOfContents: true
 order: 16
 ---
 
+![Python Data Structures](/images/python-data-structures.png)
+
 Pichle post mein humne dekha tha ki "Variable" ek dibbe jaisa hai jisme hum data rakhte hain. Lekin socho, agar aapko 100 logo ka data rakhna ho, toh kya aap 100 dibbe (variables) banayenge? 
 
 Nahi! Wo toh bahut lamba aur thakane wala kaam ho jayega. Yahin par entry hoti hai **Data Structures** ki.

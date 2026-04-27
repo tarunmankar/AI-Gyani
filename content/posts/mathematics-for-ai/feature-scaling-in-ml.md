@@ -12,6 +12,8 @@ tableOfContents: true
 order: 36
 ---
 
+![Feature Scaling kya hota hai ML mein? Min-Max aur Standardization](/images/feature_scaling_ml.png)
+
 Socho aap ek AI model bana rahe hain jo ghar ki keemat predict kare. Features hain:
 - **Rooms:** 1 to 10 (Chota number)
 - **Area:** 500 to 5000 sq ft (Bada number)

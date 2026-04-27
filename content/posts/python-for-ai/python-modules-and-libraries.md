@@ -12,6 +12,8 @@ tableOfContents: true
 order: 20
 ---
 
+![Python Modules aur Libraries Kya Hote Hain? (Beginner's Guide)](/images/python_modules_libraries.png)
+
 Kya aapne kabhi socha hai ki AI engineers itne complex kaam itni jaldi kaise kar lete hain? Iska raaz hai **Python Modules aur Libraries**. Is post me hum samjhenge ki ye dono kya hote hain aur AI me inka kya role hai.
 
 ## 1. Module Kya Hota Hai? (Lego Blocks ka Example)

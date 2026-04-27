@@ -14,6 +14,8 @@ tableOfContents: true
 order: 14
 ---
 
+![Python Setup Guide for Beginners](/images/python-setup.png)
+
 Aapne decide kar liya hai ki aap AI seekhenge, aur aapko ye bhi pata hai ki Python uski chaabi (key) hai. Lekin ab sabse bada sawal: *"Bhai, ye Python mere computer mein chalega kaise?"*
 
 Naye logo ke liye software install karna kabhi-kabhi kisi bhoot se kam nahi lagta. "Kahin kuch galat click kar diya toh?", "Ye environment variables kya hote hain?"—aise hazaron sawal dimaag mein aate hain.

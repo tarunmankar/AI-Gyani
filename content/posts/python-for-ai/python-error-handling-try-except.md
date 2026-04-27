@@ -14,6 +14,8 @@ tableOfContents: true
 order: 21
 ---
 
+![Python Error Handling (Try/Except) Simple Guide](/images/python-error-handling.png)
+
 Maan lijiye aapne 1000 lines ka ek bahut shaandaar AI program banaya. Aapne use run kiya, wo 99% kaam kar gaya, lekin aakhiri step par usne aapse ek number manga aur galti se user ne text (ABC) daal diya. 
 
 Dhadam! 💥 Aapka poora program ek bhayanak lal rang ke "Error" ke sath crash ho gaya.

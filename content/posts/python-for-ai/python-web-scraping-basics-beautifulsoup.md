@@ -12,6 +12,8 @@ tableOfContents: true
 order: 26
 ---
 
+![Web Scraping Basics in Hindi: BeautifulSoup ka use](/images/web_scraping_beautifulsoup.png)
+
 Machine Learning models data ke bhookhe hote hain. Lekin kya hoga agar aapko jo data chahiye wo kisi CSV file mein available na ho balki kisi website par likha ho? Yahi entry hoti hai **Web Scraping** ki. Is post mein hum dekhenge ki kisi bhi website se code ke zariye data kaise nikala jata hai.
 
 ## 1. Web Scraping Kya Hai?
