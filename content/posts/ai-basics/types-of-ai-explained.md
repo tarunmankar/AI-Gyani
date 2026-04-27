@@ -10,6 +10,7 @@ featured: false
 relatedPosts: ["what-is-ai", "history-of-ai"]
 readingTime: 12
 tableOfContents: true
+order: 3
 ---
 
 ![Types of AI Explained](/images/types-of-ai.png)

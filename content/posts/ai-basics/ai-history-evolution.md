@@ -10,6 +10,7 @@ featured: false
 relatedPosts: ["what-is-ai"]
 readingTime: 12
 tableOfContents: true
+order: 2
 ---
 
 ![Artificial Intelligence Ka Itihas](/images/ai-history.png)

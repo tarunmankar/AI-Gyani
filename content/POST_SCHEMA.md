@@ -16,8 +16,9 @@ author: "Tarun"
 tags: ["Tag1", "Tag2"]
 featured: false
 relatedPosts: ["doosre-post-ka-slug"]
-readingTime: 5
+readingTime: 10
 tableOfContents: true
+order: 1
 ---
 ```
 

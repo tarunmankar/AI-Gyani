@@ -10,6 +10,7 @@ featured: true
 relatedPosts: ["future-of-ai"]
 readingTime: 10
 tableOfContents: true
+order: 1
 ---
 
 ![AI Kya Hai?](/images/what-is-ai.png)

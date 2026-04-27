@@ -43,6 +43,7 @@ export function getAllPosts(): Post[] {
           relatedPosts: data.relatedPosts || [],
           readingTime: data.readingTime || estimateReadingTime(content),
           tableOfContents: data.tableOfContents || false,
+          order: data.order || 999,
         } as PostFrontmatter,
         content,
         slug: data.slug || slug,
@@ -51,7 +52,10 @@ export function getAllPosts(): Post[] {
     }
   }
 
-  return posts;
+  // Sort posts by order (ascending)
+  return posts.sort((a, b) => {
+    return (a.frontmatter.order || 999) - (b.frontmatter.order || 999);
+  });
 }
 
 // Get posts by category slug

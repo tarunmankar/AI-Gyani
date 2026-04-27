@@ -28,6 +28,7 @@ export interface PostFrontmatter {
   relatedPosts: string[];
   readingTime: number;
   tableOfContents: boolean;
+  order?: number;
 }
 
 export interface Post {
