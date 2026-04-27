@@ -10,7 +10,7 @@ export default function TermsConditionsPage() {
     <div className="container" style={{ padding: '60px 0' }}>
       <div className="prose" style={{ maxWidth: '800px', margin: '0 auto' }}>
         <h1>Terms and Conditions</h1>
-        <p><strong>Last Updated: {new Date().toLocaleDateString()}</strong></p>
+        <p><strong>Last Updated: April 27, 2026</strong></p>
         
         <p>Welcome to AI Gyani! Hamari website (aigyani.in) ko access karke aap in Terms and Conditions ko maante hain. Agar aap in terms se sehmat nahi hain, toh kripya is website ka use na karein.</p>
 

@@ -16,9 +16,6 @@ export default function ContactPage() {
         <p>Aap humein is email id par message bhej sakte hain:</p>
         <p>📧 <strong>Email:</strong> <a href="mailto:contact@aigyani.in">contact@aigyani.in</a></p>
 
-        <h2>Social Media (Coming Soon)</h2>
-        <p>Hum jaldi hi YouTube aur Twitter (X) par bhi active honge, jahan aap humse direct jud sakenge.</p>
-
         <p><strong>Note:</strong> Humein aapke emails ka jawab dene mein 24-48 ghante lag sakte hain. Hum koshish karenge ki aapke har ek sawal ka jawab dein.</p>
       </div>
     </div>
