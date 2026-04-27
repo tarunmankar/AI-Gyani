@@ -12,8 +12,6 @@ tableOfContents: true
 order: 31
 ---
 
-## IS ARTICLE MEIN
-
 Ek chhota sa sawaal: agar aap andheron mein ek pahad par khade ho aur aapko neeche (valley tak) jaana hai — aap kya karenge?
 
 Aap har baar apne pairo se zameen ko feel karenge ki kis direction mein slope (dhalan) neeche ki taraf ja rahi hai, aur wahan ek kadam badhayenge! Yahi bilkul wahi logic hai jo **Gradient Descent** mein use hota hai.

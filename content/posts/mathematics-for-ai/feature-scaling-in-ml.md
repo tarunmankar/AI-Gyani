@@ -12,8 +12,6 @@ tableOfContents: true
 order: 36
 ---
 
-## IS ARTICLE MEIN
-
 Socho aap ek AI model bana rahe hain jo ghar ki keemat predict kare. Features hain:
 - **Rooms:** 1 to 10 (Chota number)
 - **Area:** 500 to 5000 sq ft (Bada number)

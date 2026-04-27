@@ -12,8 +12,6 @@ tableOfContents: true
 order: 35
 ---
 
-## IS ARTICLE MEIN
-
 Ek interesting fact: Agar aap duniya ke 1000 logon ki height measure karein aur graph banayein, toh wo ek **symmetric bell** ki shape banayega — beech mein zyada log, edges par kam. Yahi **Normal Distribution** hai — nature ka ek ajeeb pattern jo har jagah dikhta hai!
 
 ## 1. Normal Distribution Kya Hai?

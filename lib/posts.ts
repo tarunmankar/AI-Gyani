@@ -44,6 +44,7 @@ export function getAllPosts(): Post[] {
           readingTime: data.readingTime || estimateReadingTime(content),
           tableOfContents: data.tableOfContents || false,
           order: data.order || 999,
+          image: data.image || '',
         } as PostFrontmatter,
         content,
         slug: data.slug || slug,

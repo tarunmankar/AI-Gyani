@@ -12,8 +12,6 @@ tableOfContents: true
 order: 28
 ---
 
-## IS ARTICLE MEIN
-
 Agar aapne AI aur Machine Learning (ML) ki field me kadam rakha hai, toh ek sawal aapke dimaag me zaroor aaya hoga: **"Kya mujhe Math aani chahiye?"** Aur agar haan, toh kitni? 
 
 Is post me hum ye samjhenge ki ek successful AI Engineer banne ke liye Mathematics kyu itni zaroori hai aur kaun-kaun se topics sabse important hain.

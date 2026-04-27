@@ -12,8 +12,6 @@ tableOfContents: true
 order: 27
 ---
 
-## IS ARTICLE MEIN
-
 Badhai ho! Aapne **Python for AI** category ke saare important concepts (Variables, Loops, OOP, Pandas, NumPy, Matplotlib) cover kar liye hain. Lekin knowledge tabhi pakki hoti hai jab aap use apply karte hain. 
 
 Is post mein, hum ab tak ki saari learning ko mila kar ek chota sa **Data Analysis Project** banayenge.

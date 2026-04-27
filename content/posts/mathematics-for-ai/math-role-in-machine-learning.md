@@ -12,8 +12,6 @@ tableOfContents: true
 order: 37
 ---
 
-## IS ARTICLE MEIN
-
 Aapne is puri Math for AI series mein Linear Algebra, Calculus, Statistics, Probability, aur bahut kuch seekha. Lekin ab sawaal yeh hai — **ye sab actual Machine Learning mein kahan use hota hai?**
 
 Yeh post ek "big picture" deta hai — kaise Math ke alag-alag pieces ek sath mila kar ek ML model banate hain.

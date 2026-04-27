@@ -12,8 +12,6 @@ tableOfContents: true
 order: 30
 ---
 
-## IS ARTICLE MEIN
-
 Machine Learning me sabse jadu wali baat hoti hai uska "Seekhna" (Learning). Par ek computer program apni galti ko theek kaise karta hai? Is jadui process ke piche **Calculus** ka hath hota hai.
 
 Aapko school wala complex integration nahi karna hai, AI me humein sirf **Derivatives** ki zaroorat padti hai. Aaiye isko ek simple analogy se samjhein.
