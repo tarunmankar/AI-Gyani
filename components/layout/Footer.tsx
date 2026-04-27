@@ -50,11 +50,13 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>About</h4>
+            <h4>Legal & About</h4>
             <ul>
-              <li><Link href="/blog">Sab Articles</Link></li>
-              <li><Link href="/category/projects-deployment">Projects</Link></li>
-              <li><Link href="/category/ai-ethics-future">AI Ethics</Link></li>
+              <li><Link href="/about">About Us</Link></li>
+              <li><Link href="/contact">Contact Us</Link></li>
+              <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link href="/terms-conditions">Terms & Conditions</Link></li>
+              <li><Link href="/disclaimer">Disclaimer</Link></li>
             </ul>
             <div style={{ marginTop: '24px' }}>
               <h4 style={{ marginBottom: '8px' }}>Author</h4>
