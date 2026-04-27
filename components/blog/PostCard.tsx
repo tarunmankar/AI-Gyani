@@ -11,6 +11,15 @@ export default function PostCard({ post }: Props) {
 
   return (
     <article className="card post-card" itemScope itemType="https://schema.org/Article">
+      {frontmatter.image && (
+        <Link href={`/blog/${slug}`} className="post-card-image">
+          <img 
+            src={frontmatter.image} 
+            alt={frontmatter.title} 
+            loading="lazy"
+          />
+        </Link>
+      )}
       <div className="post-card-body">
         <Link
           href={`/category/${frontmatter.category}`}

@@ -1,5 +1,6 @@
 ---
 title: "AI Myths vs Reality: Sach kya hai?"
+image: "/images/ai-myths-reality.png"
 slug: "ai-myths-vs-reality"
 category: "ai-basics"
 categoryLabel: "AI Basics"

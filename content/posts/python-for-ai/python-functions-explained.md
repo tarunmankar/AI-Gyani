@@ -6,14 +6,13 @@ categoryLabel: "Python for AI"
 description: "Python Functions kya hote hain aur inhe kaise banayein? Parameters aur Return ka concept asaan bhasha aur real-life examples ke sath."
 author: "Tarun"
 tags: ["Python Functions", "Def Python", "Coding Basics", "Python for AI"]
+image: "/images/python-functions.png"
 featured: false
 relatedPosts: ["python-loops-and-conditions", "why-python-for-ai"]
 readingTime: 12
 tableOfContents: true
 order: 18
 ---
-
-![Python Functions](/images/python-functions.png)
 
 Pichle kuch posts mein humne variables, loops, aur conditions seekhe. Agar aapne unhe try kiya hoga, toh aapko realise hua hoga ki jab code thoda bada hone lagta hai, toh use padhna aur manage karna mushkil ho jata hai.
 

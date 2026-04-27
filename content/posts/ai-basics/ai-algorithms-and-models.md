@@ -1,5 +1,6 @@
 ---
 title: "AI Algorithms aur Models kya hote hain? Simple Guide"
+image: "/images/ai-algorithms-models.png"
 slug: "ai-algorithms-and-models"
 category: "ai-basics"
 categoryLabel: "AI Basics"

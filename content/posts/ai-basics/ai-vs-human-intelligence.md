@@ -1,5 +1,6 @@
 ---
 title: "AI vs Human Intelligence: Kaun Better Hai?"
+image: "/images/ai-vs-human.png"
 slug: "ai-vs-human-intelligence"
 category: "ai-basics"
 categoryLabel: "AI Basics"

@@ -1,5 +1,6 @@
 ---
 title: "AI ke liye Python kyu best hai? Beginner Guide"
+image: "/images/python-for-ai.png"
 slug: "why-python-for-ai"
 category: "python-for-ai"
 categoryLabel: "Python for AI"

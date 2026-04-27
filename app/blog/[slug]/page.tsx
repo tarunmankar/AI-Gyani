@@ -88,6 +88,15 @@ export default async function PostPage({ params }: Props) {
           </div>
         </header>
 
+        {frontmatter.image && (
+          <div className="post-featured-image">
+            <img 
+              src={frontmatter.image} 
+              alt={frontmatter.title} 
+            />
+          </div>
+        )}
+
         <div className="post-layout" style={{ paddingBottom: '80px' }}>
           <div>
             {frontmatter.tableOfContents && toc.length > 0 && (

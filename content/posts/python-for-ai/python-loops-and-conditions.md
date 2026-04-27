@@ -1,5 +1,6 @@
 ---
 title: "Python Loops aur Conditions Explained"
+image: "/images/python-loops-conditions.png"
 slug: "python-loops-and-conditions"
 category: "python-for-ai"
 categoryLabel: "Python for AI"

@@ -1,5 +1,6 @@
 ---
 title: "Python Lists, Tuples, Dictionaries Simple Guide"
+image: "/images/python-data-structures.png"
 slug: "python-data-structures-lists-tuples-dictionaries"
 category: "python-for-ai"
 categoryLabel: "Python for AI"

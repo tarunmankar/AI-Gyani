@@ -1,5 +1,6 @@
 ---
 title: "Python Basics: Variables aur Data Types Explained"
+image: "/images/python-basics.png"
 slug: "python-basics-variables-datatypes"
 category: "python-for-ai"
 categoryLabel: "Python for AI"

@@ -1,5 +1,6 @@
 ---
 title: "AI me Data ka Role: Kyon zaroori hai?"
+image: "/images/ai-data-role.png"
 slug: "role-of-data-in-ai"
 category: "ai-basics"
 categoryLabel: "AI Basics"

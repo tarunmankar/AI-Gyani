@@ -1,5 +1,6 @@
 ---
 title: "Artificial Intelligence Ka Itihas aur Evolution Explained"
+image: "/images/ai-history.png"
 slug: "history-of-ai"
 category: "ai-basics"
 categoryLabel: "AI Basics"

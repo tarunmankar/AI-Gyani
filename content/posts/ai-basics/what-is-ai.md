@@ -1,5 +1,6 @@
 ---
 title: "AI Kya Hai? Beginner Friendly Complete Guide"
+image: "/images/what-is-ai.png"
 slug: "what-is-ai"
 category: "ai-basics"
 categoryLabel: "AI Basics"

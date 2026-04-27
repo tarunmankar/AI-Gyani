@@ -6,14 +6,13 @@ categoryLabel: "Python for AI"
 description: "Object-Oriented Programming (OOPs) kya hai? Class aur Objects ke concepts ko asaan Hinglish mein real-world examples se samjhein."
 author: "Tarun"
 tags: ["Python OOP", "Classes in Python", "OOPs Concepts", "Python for AI"]
+image: "/images/python-oop.png"
 featured: false
 relatedPosts: ["python-functions-explained"]
 readingTime: 15
 tableOfContents: true
 order: 19
 ---
-
-![Python OOP Concepts](/images/python-oop.png)
 
 Agar aapne ab tak Python ke basics (Loops, Variables, Functions) achhe se samajh liye hain, toh badhai ho! Aap code likhna seekh gaye hain. Lekin ab hum ek aisi duniya mein kadam rakhne wale hain jo aapke sochne ke tarike ko puri tarah badal dega.
 

@@ -1,5 +1,6 @@
 ---
 title: "AI vs ML vs Deep Learning: Simple Difference Guide"
+image: "/images/ai-ml-dl.png"
 slug: "ai-ml-deep-learning-difference"
 category: "ai-basics"
 categoryLabel: "AI Basics"

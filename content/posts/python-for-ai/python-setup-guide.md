@@ -1,5 +1,6 @@
 ---
 title: "Python Setup Guide for Beginners (Step-by-Step)"
+image: "/images/python-setup.png"
 slug: "python-setup-guide"
 category: "python-for-ai"
 categoryLabel: "Python for AI"

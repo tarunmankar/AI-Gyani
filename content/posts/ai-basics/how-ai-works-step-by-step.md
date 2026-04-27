@@ -1,5 +1,6 @@
 ---
 title: "AI Kaise Kaam Karta Hai? Step-by-Step Simple Guide"
+image: "/images/how-ai-works.png"
 slug: "how-ai-works-step-by-step"
 category: "ai-basics"
 categoryLabel: "AI Basics"

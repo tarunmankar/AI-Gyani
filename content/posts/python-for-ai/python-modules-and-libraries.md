@@ -9,7 +9,7 @@ tags: ["Python", "Modules", "Libraries", "Beginners"]
 image: "/images/python_modules_libraries.png"
 readingTime: 6
 tableOfContents: true
-order: 21
+order: 20
 ---
 
 ## IS ARTICLE MEIN

@@ -1,5 +1,6 @@
 ---
 title: "Future of AI in India aur World (2026–2030)"
+image: "/images/future-of-ai.png"
 slug: "future-of-ai-in-india-and-world"
 category: "ai-basics"
 categoryLabel: "AI Basics"

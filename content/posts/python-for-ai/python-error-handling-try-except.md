@@ -6,14 +6,13 @@ categoryLabel: "Python for AI"
 description: "Python mein errors aur bugs ko kaise sambhalein? Try aur Except block ka use karke apne code ko crash hone se bachana seekhein."
 author: "Tarun"
 tags: ["Python Errors", "Try Except", "Bug Fixing", "Python for AI"]
+image: "/images/python-error-handling.png"
 featured: false
 relatedPosts: ["python-oop-concepts-for-ai", "python-functions-explained"]
 readingTime: 12
 tableOfContents: true
-order: 20
+order: 21
 ---
-
-![Python Error Handling](/images/python-error-handling.png)
 
 Maan lijiye aapne 1000 lines ka ek bahut shaandaar AI program banaya. Aapne use run kiya, wo 99% kaam kar gaya, lekin aakhiri step par usne aapse ek number manga aur galti se user ne text (ABC) daal diya. 
 

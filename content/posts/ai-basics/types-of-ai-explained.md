@@ -1,5 +1,6 @@
 ---
 title: "Types of AI Explained: Narrow vs General vs Super AI"
+image: "/images/types-of-ai.png"
 slug: "types-of-ai-explained"
 category: "ai-basics"
 categoryLabel: "AI Basics"

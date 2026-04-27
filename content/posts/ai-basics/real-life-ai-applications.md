@@ -1,5 +1,6 @@
 ---
 title: "Real-Life AI Applications: Har Industry me AI ka Use"
+image: "/images/ai-applications.png"
 slug: "real-life-ai-applications"
 category: "ai-basics"
 categoryLabel: "AI Basics"

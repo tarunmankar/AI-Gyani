@@ -1,5 +1,6 @@
 ---
 title: "AI Terms Explained: Beginner ke liye Simple Guide"
+image: "/images/ai-terms-explained.png"
 slug: "ai-terms-explained-for-beginners"
 category: "ai-basics"
 categoryLabel: "AI Basics"

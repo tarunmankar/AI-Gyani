@@ -346,6 +346,26 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .post-card-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .post-card-tag { font-size: 11px; padding: 3px 9px; border-radius: 999px; background: var(--bg-alt); color: var(--text-muted); font-weight: 500; }
 
+.post-card-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.post-card:hover .post-card-image img {
+  transform: scale(1.05);
+}
+
+
 /* ── Why Section ── */
 .why-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
 @media (min-width: 640px) { .why-grid { grid-template-columns: repeat(2, 1fr); } }
@@ -390,6 +410,22 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .post-header { padding: 48px 0 32px; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
 .post-title { font-size: clamp(1.75rem, 4vw, 2.75rem); font-weight: 800; line-height: 1.2; color: var(--text-primary); margin-bottom: 16px; }
 .post-meta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; font-size: 14px; color: var(--text-muted); }
+
+.post-featured-image {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.post-featured-image img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+
 .post-layout { display: grid; grid-template-columns: 1fr; gap: 48px; }
 @media (min-width: 1024px) { .post-layout { grid-template-columns: 1fr 280px; } }
 .post-sidebar { display: none; }
