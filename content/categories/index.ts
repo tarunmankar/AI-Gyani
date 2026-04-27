@@ -1,0 +1,133 @@
+import { Category } from '@/lib/types';
+
+export const categories: Category[] = [
+  {
+    slug: 'ai-basics',
+    name: 'AI Basics',
+    hinglishName: 'AI ki Buniyad',
+    description: 'Artificial Intelligence kya hai, kaise kaam karta hai — yahan se shuru karo apna AI safar. Bilkul simple, bilkul asaan.',
+    shortDescription: 'AI ki basic concepts seedhi bhasha mein',
+    icon: '🧠',
+    color: '#6366f1',
+    bgColor: '#eef2ff',
+    postCount: 0,
+    featured: true,
+    order: 1,
+  },
+  {
+    slug: 'python-for-ai',
+    name: 'Python for AI',
+    hinglishName: 'AI ke liye Python',
+    description: 'Python programming language AI aur ML ke liye sabse popular hai. Yahan seekho Python basics se lekar AI-specific libraries tak sab kuch.',
+    shortDescription: 'AI seekhne ke liye Python programming',
+    icon: '🐍',
+    color: '#3b82f6',
+    bgColor: '#eff6ff',
+    postCount: 0,
+    featured: true,
+    order: 2,
+  },
+  {
+    slug: 'mathematics-for-ai',
+    name: 'Mathematics for AI',
+    hinglishName: 'AI ke liye Maths',
+    description: 'Linear algebra, statistics, calculus — AI ke peeche yahi maths hai. Simple examples ke saath samjho ek-ek concept.',
+    shortDescription: 'AI ke liye zaroori maths concepts',
+    icon: '📐',
+    color: '#10b981',
+    bgColor: '#ecfdf5',
+    postCount: 0,
+    featured: false,
+    order: 3,
+  },
+  {
+    slug: 'machine-learning',
+    name: 'Machine Learning',
+    hinglishName: 'Machine Learning',
+    description: 'Machine Learning algorithms, models, aur real-world applications. Supervised, unsupervised, aur reinforcement learning sab yahan milega.',
+    shortDescription: 'ML algorithms aur models ki complete guide',
+    icon: '⚙️',
+    color: '#f59e0b',
+    bgColor: '#fffbeb',
+    postCount: 0,
+    featured: true,
+    order: 4,
+  },
+  {
+    slug: 'deep-learning',
+    name: 'Deep Learning',
+    hinglishName: 'Deep Learning',
+    description: 'Neural networks, CNNs, RNNs, aur transformers — deep learning ki duniya mein deep dive karo practical examples ke saath.',
+    shortDescription: 'Neural networks aur deep learning tutorials',
+    icon: '🕸️',
+    color: '#ef4444',
+    bgColor: '#fef2f2',
+    postCount: 0,
+    featured: true,
+    order: 5,
+  },
+  {
+    slug: 'generative-ai-llms',
+    name: 'Generative AI & LLMs',
+    hinglishName: 'Generative AI aur LLMs',
+    description: 'ChatGPT, GPT-4, Gemini, LLaMA — generative AI aur large language models ko samjho. Prompt engineering se lekar fine-tuning tak.',
+    shortDescription: 'ChatGPT, LLMs aur Generative AI guides',
+    icon: '✨',
+    color: '#8b5cf6',
+    bgColor: '#f5f3ff',
+    postCount: 0,
+    featured: true,
+    order: 6,
+  },
+  {
+    slug: 'ai-tools-frameworks',
+    name: 'AI Tools & Frameworks',
+    hinglishName: 'AI Tools aur Frameworks',
+    description: 'TensorFlow, PyTorch, Scikit-learn, Hugging Face — top AI tools aur frameworks ka practical usage seekho step-by-step.',
+    shortDescription: 'TensorFlow, PyTorch aur AI frameworks',
+    icon: '🛠️',
+    color: '#14b8a6',
+    bgColor: '#f0fdfa',
+    postCount: 0,
+    featured: false,
+    order: 7,
+  },
+  {
+    slug: 'projects-deployment',
+    name: 'Projects & Deployment',
+    hinglishName: 'Projects aur Deployment',
+    description: 'Real AI projects banao aur unhe deploy karo. Portfolio ke liye perfect — end-to-end projects jo aapko job dilayenge.',
+    shortDescription: 'Real AI projects banao aur deploy karo',
+    icon: '🚀',
+    color: '#eab308',
+    bgColor: '#fefce8',
+    postCount: 0,
+    featured: false,
+    order: 8,
+  },
+  {
+    slug: 'ai-ethics-future',
+    name: 'AI Ethics & Future',
+    hinglishName: 'AI Ethics aur Future',
+    description: 'AI ke social impact, ethics, bias, aur future trends ko samjho. Responsible AI development ke baare mein zaroori knowledge.',
+    shortDescription: 'AI ethics, bias aur future of AI',
+    icon: '🌍',
+    color: '#ec4899',
+    bgColor: '#fdf2f8',
+    postCount: 0,
+    featured: false,
+    order: 9,
+  },
+];
+
+export const getCategoryBySlug = (slug: string): Category | undefined => {
+  return categories.find((cat) => cat.slug === slug);
+};
+
+export const getFeaturedCategories = (): Category[] => {
+  return categories.filter((cat) => cat.featured).sort((a, b) => a.order - b.order);
+};
+
+export const getAllCategories = (): Category[] => {
+  return categories.sort((a, b) => a.order - b.order);
+};
