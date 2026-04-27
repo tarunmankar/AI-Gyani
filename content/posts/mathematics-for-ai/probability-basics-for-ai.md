@@ -16,7 +16,7 @@ order: 33
 
 Kya aapne kabhi socha ki ChatGPT ya koi AI model jab jawab deta hai, toh wo "confident" kaise hota hai? Ya image recognition AI kaise bolta hai "95% chance hai ki ye billi hai"?
 
-Isका jawaab hai **Probability** — ek mathematical tool jo uncertainty (anapne) ko numbers mein express karta hai.
+Iska jawaab hai **Probability** — ek mathematical tool jo uncertainty (anapne) ko numbers mein express karta hai.
 
 ## 1. Probability Kya Hai?
 

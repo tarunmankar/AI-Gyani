@@ -150,7 +150,7 @@ Kuch algorithms scaling se affect nahi hote:
 - **Decision Trees / Random Forest** — Splitting rules scales pe depend nahi karte
 - **Naive Bayes** — Probability calculation independent hai
 
-Lekin in algorithms ke liye bhi scaling karना harm nahi karta!
+Lekin in algorithms ke liye bhi scaling karna harm nahi karta!
 
 ## Conclusion
 

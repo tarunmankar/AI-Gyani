@@ -45,7 +45,7 @@ else:
 
 Yahan computer check karega ki age 18 ya usse badi hai ya nahi. Agar sach (True) hai, toh pehla message dikhayega, warna (Else) dusra message dikhayega.
 
-### Elif (Agar-M मगर)
+### Elif (Agar-Magar)
 Kabhi-kabhi humare paas 2 se zyada choices hoti hain. Aise mein hum `elif` (Else If) use karte hain. Jaise: Agar light Red hai toh ruko, `elif` Yellow hai toh wait karo, `else` Green hai toh jao.
 
 ---
