@@ -14,8 +14,6 @@ tableOfContents: true
 order: 7
 ---
 
-![AI Myths vs Reality](/images/ai-myths-reality.png)
-
 Jab bhi duniya mein koi nayi technology aati hai, uske saath dher saari afwayein (rumors) bhi aati hain. Aur jab baat Artificial Intelligence (AI) ki ho, tab toh afwayein Hollywood movies ke level ki hoti hain! 
 
 Kisi ko lagta hai ki AI kal subah uth kar hamari naukri chheen lega, toh kisi ko lagta hai ki robots aapas me baat karke duniya par kabza kar lenge. Lekin asli sachai kya hai?

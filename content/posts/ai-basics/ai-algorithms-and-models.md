@@ -14,8 +14,6 @@ tableOfContents: true
 order: 9
 ---
 
-![AI Algorithms and Models](/images/ai-algorithms-models.png)
-
 Agar aap tech ki duniya mein naye hain aur log aapke aas-paas "Bro, iska algorithm bahut strong hai" ya "Maine ek naya AI model train kiya hai" jaisi baatein karte hain, toh darrna mat! 
 
 Bahut se logo ko lagta hai ki **AI Algorithms aur Models** dono ek hi cheez hain aur wo in terms ko ek dusre ki jagah (interchangeably) use kar lete hain. Lekin ek Data Scientist ya AI developer ki nazar mein, in dono ke beech mein zameen aur aasman ka farq hai.

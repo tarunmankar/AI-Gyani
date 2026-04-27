@@ -14,8 +14,6 @@ tableOfContents: true
 order: 15
 ---
 
-![Python Basics Variables aur Data Types](/images/python-basics.png)
-
 Setup ho gaya? Check. Pehla program run ho gaya? Check. 
 
 Ab aate hain asli coding par! Aksar log jab coding shuru karte hain, toh wo seedha "Complex AI" banane ki koshish karte hain aur fail ho jate hain. AI seekhna ek ghar banane jaisa hai—agar buniyaad (foundation) kamzor hogi, toh pura ghar gir jayega. 

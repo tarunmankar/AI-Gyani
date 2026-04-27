@@ -14,8 +14,6 @@ tableOfContents: true
 order: 8
 ---
 
-![How AI Works Step-by-Step](/images/how-ai-works.png)
-
 Aapne AI ke baare mein bahut sun liya hai. Aapko ye bhi pata chal gaya ki AI aur Insaan mein kaun zyada smart hai, aur inke alag-alag types kya hain. Lekin aapke dimaag me abhi bhi ek keeda ghoom raha hoga: 
 
 *"Bhai, ye sab theek hai, par aakhir **AI kaise kaam karta hai?** Iske peeche ka jadoo kya hai?"*

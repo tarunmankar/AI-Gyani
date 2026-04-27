@@ -14,8 +14,6 @@ tableOfContents: true
 order: 17
 ---
 
-![Python Loops aur Conditions](/images/python-loops-conditions.png)
-
 Ab tak humne Python mein data jama karna seekh liya (Variables aur Lists ke zariye). Lekin computer ka asli maza toh tab hai jab wo khud soch sake aur humare liye repetitive (baar-baar hone wale) kaam kar sake. 
 
 AI (Artificial Intelligence) ko smart banane ka pehla step yehi hai—computer ko "Faisla" (Decision) lena sikhana aur bina thake kaam karna sikhana.

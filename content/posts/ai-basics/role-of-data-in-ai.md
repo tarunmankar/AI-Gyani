@@ -14,8 +14,6 @@ tableOfContents: true
 order: 10
 ---
 
-![AI me Data ka Role](/images/ai-data-role.png)
-
 Aapne ye phrase shayad internet par kai baar padha hoga: **"Data is the new oil"** (Data aaj ke zamane ka petrol hai). Lekin kya aapne kabhi socha hai ki aakhir data mein aisi kya khaas baat hai? 
 
 Agar Artificial Intelligence ek car hai, toh Data us car ka Fuel (petrol) hai. Bina data ke, duniya ka sabse smart AI algorithm bhi kisi plastic ke khilone se zyada kuch nahi hai.

@@ -14,8 +14,6 @@ tableOfContents: true
 order: 13
 ---
 
-![AI ke liye Python kyu best hai](/images/python-for-ai.png)
-
 Jab bhi koi insaan AI seekhne ki baat karta hai, toh sabse pehle uske kaano mein ek hi word gunjta hai—**Python**. 
 
 Socho, duniya mein itni saari programming languages hain (Java, C++, JavaScript, C#), lekin phir bhi Artificial Intelligence ke 90% projects sirf Python mein hi kyu bante hain? Kya Python mein koi jaadu hai? Ya phir baaki languages AI ke liye bekar hain?

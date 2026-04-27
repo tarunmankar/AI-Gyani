@@ -14,8 +14,6 @@ tableOfContents: true
 order: 1
 ---
 
-![AI Kya Hai?](/images/what-is-ai.png)
-
 Doston, kya aapne kabhi socha hai ki aapka phone kaise samajh jaata hai ki aap agla word kya type karne wale ho? Ya phir Instagram ko kaise pata chalta hai ki aapko wahi "Dog Reels" dikhani hain jo aapko pasand hain? 
 
 Ye koi jaadu nahi hai. Iske peeche ek aisi technology hai jo aaj puri duniya ko badal rahi hai—**Artificial Intelligence (AI)**. 
