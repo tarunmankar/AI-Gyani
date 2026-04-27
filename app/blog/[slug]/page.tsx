@@ -91,7 +91,7 @@ export default async function PostPage({ params }: Props) {
         <div className="post-layout" style={{ paddingBottom: '80px' }}>
           <div>
             {frontmatter.tableOfContents && toc.length > 0 && (
-              <div className="post-sidebar" style={{ display: 'block' }}>
+              <div className="mobile-only">
                 <TableOfContents items={toc} />
               </div>
             )}
