@@ -231,7 +231,16 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .prose th { background: var(--bg-alt); font-weight: 700; padding: 10px 14px; text-align: left; border: 1px solid var(--border); }
 .prose td { padding: 10px 14px; border: 1px solid var(--border); }
 .prose tr:hover td { background: var(--bg-alt); }
-.prose img { border-radius: var(--radius-md); margin: 1.5em 0; }
+.prose img { 
+  border-radius: var(--radius-md); 
+  margin: 2em auto; 
+  display: block;
+  max-height: 450px;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+  box-shadow: var(--shadow-sm);
+}
 
 /* ── TOC ── */
 .toc { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 20px 24px; margin-bottom: 32px; }
