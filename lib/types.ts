@@ -29,6 +29,8 @@ export interface PostFrontmatter {
   readingTime: number;
   tableOfContents: boolean;
   order?: number;
+  image?: string;
+  date?: string;
 }
 
 export interface Post {
