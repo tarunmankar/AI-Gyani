@@ -57,12 +57,6 @@ export default function Footer() {
               <li><Link href="/terms-conditions">Terms & Conditions</Link></li>
               <li><Link href="/disclaimer">Disclaimer</Link></li>
             </ul>
-            <div style={{ marginTop: '24px' }}>
-              <h4 style={{ marginBottom: '8px' }}>Author</h4>
-              <p style={{ fontSize: '14px', color: '#94a3b8' }}>
-                <strong style={{ color: '#e2e8f0' }}>Tarun</strong> — AI educator aur developer
-              </p>
-            </div>
           </div>
         </div>
 
