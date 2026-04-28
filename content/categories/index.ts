@@ -49,7 +49,7 @@ export const categories: Category[] = [
     icon: '⚙️',
     color: '#f59e0b',
     bgColor: '#fffbeb',
-    postCount: 3,
+    postCount: 6,
     featured: true,
     order: 4,
   },
