@@ -43,7 +43,7 @@
 36. Feature Scaling kya hota hai ML me?
 37. Machine Learning me Math ka role kya hai?
 
-## 🤖 PART 4: MACHINE LEARNING (20 Posts)
+## 🤖 PART 4: MACHINE LEARNING (20 Posts) - [COMPLETED]
 38. Machine Learning kya hai? Complete Guide
 39. ML Workflow Step-by-Step Guide
 40. Types of Machine Learning Explained
