@@ -12,6 +12,7 @@ slug: "post-ka-url-slug"
 category: "category-slug"
 categoryLabel: "Category ka Naam"
 description: "150-160 characters ka SEO description"
+image: "/images/your-image-name.png"
 author: "Tarun"
 tags: ["Tag1", "Tag2"]
 featured: false
