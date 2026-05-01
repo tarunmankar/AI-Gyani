@@ -65,7 +65,7 @@
 56. Real-World Machine Learning Examples
 57. ML Engineer banne ka roadmap
 
-## 🧠 PART 5: DEEP LEARNING (18 Posts)
+## 🧠 PART 5: DEEP LEARNING (18 Posts) - [COMPLETED]
 58. Deep Learning kya hai? Beginner Guide
 59. Neural Networks Explained Simple Way
 60. Activation Functions kya hote hain?
@@ -85,7 +85,7 @@
 74. Deep Learning Projects Ideas
 75. Deep Learning vs Machine Learning
 
-## ⚡ PART 6: GENERATIVE AI & LLM (18 Posts)
+## ⚡ PART 6: GENERATIVE AI & LLM (18 Posts) - [IN PROGRESS]
 76. Generative AI kya hai? Simple Guide
 77. Diffusion Models Explained (DALL·E, Midjourney)
 78. Transformers Architecture Explained
