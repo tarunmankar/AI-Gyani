@@ -11,6 +11,7 @@ relatedPosts: ["nlp-kya-hai-text-processing-guide"]
 readingTime: 15
 tableOfContents: true
 order: 69
+image: "/images/nlp_techniques.png"
 ---
 
 # NLP Techniques Explained: Tokenization, Stemming & Lemmatization

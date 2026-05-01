@@ -11,6 +11,7 @@ relatedPosts: ["transformers-architecture-explained", "gpt-kaise-kaam-karta-hai"
 readingTime: 15
 tableOfContents: true
 order: 76
+image: "/images/gen_ai_intro.png"
 ---
 
 # Generative AI: Kya AI ab Insaan ki Tarah Creative ho gaya hai?

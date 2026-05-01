@@ -11,6 +11,7 @@ relatedPosts: ["deep-learning-kya-hai-beginner-guide", "transformers-architectur
 readingTime: 14
 tableOfContents: true
 order: 71
+image: "/images/gans_ai.png"
 ---
 
 # GANs: Jab Do AI Models Aapas Mein "Ladte" Hain

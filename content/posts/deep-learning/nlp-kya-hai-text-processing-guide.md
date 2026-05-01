@@ -11,6 +11,7 @@ relatedPosts: ["deep-learning-kya-hai-beginner-guide", "rnn-and-lstm-explained"]
 readingTime: 12
 tableOfContents: true
 order: 68
+image: "/images/nlp_guide.png"
 ---
 
 # NLP kya hai? Natural Language Processing Guide for Beginners

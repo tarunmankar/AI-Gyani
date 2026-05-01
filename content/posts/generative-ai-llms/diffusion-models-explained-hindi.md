@@ -11,6 +11,7 @@ relatedPosts: ["generative-ai-kya-hai-simple-guide", "gans-kya-hote-hain-explain
 readingTime: 16
 tableOfContents: true
 order: 77
+image: "/images/diffusion_models.png"
 ---
 
 # Diffusion Models: Kachre (Noise) se Khoobsurat Photos Banana

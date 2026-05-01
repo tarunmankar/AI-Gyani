@@ -11,6 +11,7 @@ relatedPosts: ["deep-learning-kya-hai-beginner-guide", "gans-kya-hote-hain-expla
 readingTime: 12
 tableOfContents: true
 order: 72
+image: "/images/autoencoders_ai.png"
 ---
 
 # Autoencoders: Data ko Chota Karke Bada Banana

@@ -11,6 +11,7 @@ relatedPosts: ["deep-learning-kya-hai-beginner-guide", "cnn-complete-guide"]
 readingTime: 15
 tableOfContents: true
 order: 74
+image: "/images/dl_project_ideas.png"
 ---
 
 # Deep Learning Project Ideas: Resume ko Professional Banayein

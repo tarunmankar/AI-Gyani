@@ -11,6 +11,7 @@ relatedPosts: ["deep-learning-kya-hai-beginner-guide", "optimizers-adam-sgd-expl
 readingTime: 16
 tableOfContents: true
 order: 73
+image: "/images/dl_problems_solutions.png"
 ---
 
 # Deep Learning Problems: Kyun Fail Hote Hain AI Models?

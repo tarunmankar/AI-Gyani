@@ -11,6 +11,7 @@ relatedPosts: ["nlp-kya-hai-text-processing-guide", "rnn-and-lstm-explained"]
 readingTime: 18
 tableOfContents: true
 order: 70
+image: "/images/transformers_ai.png"
 ---
 
 # Transformers Architecture: AI ki Duniya ka Asli Game Changer

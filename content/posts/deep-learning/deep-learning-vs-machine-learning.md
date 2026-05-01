@@ -11,6 +11,7 @@ relatedPosts: ["machine-learning-kya-hai-complete-guide", "deep-learning-kya-hai
 readingTime: 12
 tableOfContents: true
 order: 75
+image: "/images/dl_vs_ml.png"
 ---
 
 # Machine Learning vs Deep Learning: Asli Difference Samjhein
