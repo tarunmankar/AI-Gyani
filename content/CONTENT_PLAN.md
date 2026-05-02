@@ -117,7 +117,7 @@
 102. AI Development Workflow
 103. Best AI Tools List (2026)
 
-## 🚀 PART 8: PROJECTS & DEPLOYMENT (12 Posts)
+## 🚀 PART 8: PROJECTS & DEPLOYMENT (12 Posts) - [COMPLETED]
 104. Machine Learning Project kaise banaye
 105. Flask/FastAPI se API kaise banaye
 106. ML Model Save aur Load kaise karein
@@ -131,7 +131,7 @@
 114. AI Web App kaise banaye
 115. Complete AI Project Roadmap
 
-## ⚖️ PART 9: ETHICS & CAREER (10 Posts)
+## ⚖️ PART 9: ETHICS & CAREER (10 Posts) - [COMPLETED]
 116. AI Ethics kya hai aur kyon zaroori hai
 117. AI Bias aur Fairness Explained
 118. AI Security Risks kya hain?

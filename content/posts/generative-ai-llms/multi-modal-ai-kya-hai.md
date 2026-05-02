@@ -4,7 +4,7 @@ slug: "multi-modal-ai-kya-hai"
 category: "generative-ai-llms"
 categoryLabel: "Generative AI & LLMs"
 description: "Multi-modal AI kya hota hai? Text, image, audio, video — sab ek saath process karne wale AI models kaise kaam karte hain? GPT-4o, Gemini Ultra simple Hinglish mein."
-image: "/images/llm_large_language_models.png"
+image: "/images/multi_modal_ai.png"
 author: "Tarun"
 tags: ["Multimodal AI", "GPT-4o", "Gemini", "Vision AI", "Audio AI", "Future AI"]
 featured: false
@@ -22,7 +22,7 @@ Ab aaya hai **Multi-modal AI** — ek aisa AI jo ek saath text, images, audio, v
 
 Ye sirf ek upgrade nahi hai — ye AI ki soch aur kaam karne ke tarike ka fundamental shift hai!
 
-![Multi-modal AI](/images/llm_large_language_models.png)
+![Multi-modal AI](/images/multi_modal_ai.png)
 
 ## Multi-modal AI Kya Hota Hai?
 
