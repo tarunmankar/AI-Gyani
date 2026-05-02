@@ -85,7 +85,7 @@
 74. Deep Learning Projects Ideas
 75. Deep Learning vs Machine Learning
 
-## ⚡ PART 6: GENERATIVE AI & LLM (18 Posts) - [IN PROGRESS]
+## ⚡ PART 6: GENERATIVE AI & LLM (18 Posts) - [COMPLETED]
 76. Generative AI kya hai? Simple Guide
 77. Diffusion Models Explained (DALL·E, Midjourney)
 78. Transformers Architecture Explained
@@ -105,7 +105,7 @@
 92. LLM Challenges (Bias, Hallucination)
 93. Future of Generative AI
 
-## 🛠️ PART 7: TOOLS & FRAMEWORKS (10 Posts)
+## 🛠️ PART 7: TOOLS & FRAMEWORKS (10 Posts) - [COMPLETED]
 94. TensorFlow kya hai? Beginner Guide
 95. PyTorch kya hai? Simple Explanation
 96. Hugging Face kya hai?
