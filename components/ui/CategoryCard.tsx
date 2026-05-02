@@ -10,16 +10,16 @@ export default function CategoryCard({ category }: Props) {
     <Link
       href={`/category/${category.slug}`}
       className="category-card"
-      style={{ borderTop: `4px solid ${category.color}` }}
+      style={{ borderLeft: '3px solid var(--primary)' }}
       aria-label={`${category.name} tutorials dekhein`}
     >
       <span className="category-card-icon" aria-hidden="true">{category.icon}</span>
       <h3 className="category-card-name">{category.name}</h3>
-      <p className="category-card-hinglish" style={{ color: category.color }}>
+      <p className="category-card-hinglish" style={{ color: 'var(--primary)' }}>
         {category.hinglishName}
       </p>
       <p className="category-card-desc">{category.shortDescription}</p>
-      <p className="category-card-count" style={{ color: category.color }}>
+      <p className="category-card-count" style={{ color: 'var(--primary)' }}>
         {category.postCount > 0
           ? `${category.postCount} tutorials →`
           : 'Tutorials jald aayenge →'}
@@ -27,3 +27,4 @@ export default function CategoryCard({ category }: Props) {
     </Link>
   );
 }
+

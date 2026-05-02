@@ -320,6 +320,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   padding: 28px 24px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--border);
+  border-left: 3px solid var(--primary);
   background: var(--bg-card);
   transition: all 0.2s ease;
   box-shadow: var(--shadow-sm);
@@ -327,13 +328,18 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
   overflow: hidden;
 }
-.category-card::before { content: ''; position: absolute; inset: 0; opacity: 0; transition: opacity 0.2s; }
-.category-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.category-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary);
+  background: var(--accent-light);
+}
 .category-card-icon { font-size: 2.25rem; margin-bottom: 14px; display: block; }
 .category-card-name { font-size: 1.0625rem; font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
-.category-card-hinglish { font-size: 12px; font-weight: 600; margin-bottom: 10px; }
+.category-card-hinglish { font-size: 12px; font-weight: 600; margin-bottom: 10px; color: var(--primary); }
 .category-card-desc { font-size: 13.5px; color: var(--text-secondary); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; box-orient: vertical; overflow: hidden; }
-.category-card-count { font-size: 12px; margin-top: 14px; font-weight: 600; }
+.category-card-count { font-size: 12px; margin-top: 14px; font-weight: 600; color: var(--primary); }
+
 
 /* ── Post Card ── */
 .post-card { display: flex; flex-direction: column; }
