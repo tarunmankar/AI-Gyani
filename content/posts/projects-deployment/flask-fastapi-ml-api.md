@@ -1,6 +1,6 @@
 ---
 title: "Flask aur FastAPI se ML Model ki API kaise banaye"
-image: "/images/ai_dev_workflow.png"
+image: "/images/projects/flask-fastapi-api.png"
 slug: "flask-fastapi-ml-api"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 105
 ---
 
-![Flask vs FastAPI for ML](/images/ai_dev_workflow.png)
+![Flask vs FastAPI for ML](/images/projects/flask-fastapi-api.png)
 
 Aapne model train kar liya, accuracy bhi achhi aa gayi. Lekin ab aap chahte hain ki aapka model ek website ya mobile app ke sath connect ho sake. Iska sabse achha tarika hai—**API (Application Programming Interface)** banana.
 

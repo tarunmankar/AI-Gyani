@@ -1,6 +1,6 @@
 ---
 title: "Intermediate AI Projects: Apne Portfolio ko Next Level par le jayein"
-image: "/images/ml_projects_beginners.png"
+image: "/images/projects/intermediate-ai-projects.png"
 slug: "intermediate-ai-projects-guide"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 111
 ---
 
-![Intermediate AI Project Ideas](/images/ml_projects_beginners.png)
+![Intermediate AI Project Ideas](/images/projects/intermediate-ai-projects.png)
 
 Beginner projects (jaise Titanic ya Iris) seekhne ke liye achhe hain, lekin wo aapko job dilane ke liye kafi nahi hain. Aaj ke time mein recruiters wo projects dekhte hain jisme **Deep Learning**, **Computer Vision**, ya **Large Language Models (LLMs)** ka use hua ho.
 

@@ -1,6 +1,6 @@
 ---
 title: "Advanced AI Projects: Generative AI aur LLMs ke zamane ke Projects"
-image: "/images/dl_project_ideas.png"
+image: "/images/projects/advanced-ai-projects.png"
 slug: "advanced-ai-projects-ideas"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 112
 ---
 
-![Advanced AI and Generative AI Projects](/images/dl_project_ideas.png)
+![Advanced AI and Generative AI Projects](/images/projects/advanced-ai-projects.png)
 
 Agar aap 2026 mein AI ki duniya mein apni jagah banana chahte hain, toh aapko **Generative AI** aur **Large Language Models (LLMs)** ke sath kaam karna aana chahiye. Aaj ke time mein "Advanced" ka matlab hai—Aise systems banana jo sirf data analyze na karein, balki naya content generate bhi karein.
 

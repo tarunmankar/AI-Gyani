@@ -1,6 +1,6 @@
 ---
 title: "Top 10 Beginner AI Projects Ideas (with Dataset Links)"
-image: "/images/ml_projects_beginners.png"
+image: "/images/projects/beginner-ai-projects.png"
 slug: "beginner-ai-projects-list"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 110
 ---
 
-![Beginner AI Projects Ideas](/images/ml_projects_beginners.png)
+![Beginner AI Projects Ideas](/images/projects/beginner-ai-projects.png)
 
 Aapne theory toh bahut padh li, lekin bina projects ke aap kabhi "Confident" feel nahi karenge. Ek beginner ke liye sabse badi chunauti hoti hai—**"Main kya banau?"**
 

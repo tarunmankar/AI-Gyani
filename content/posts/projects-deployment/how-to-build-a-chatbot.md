@@ -1,6 +1,6 @@
 ---
 title: "Chatbot kaise banaye: Step-by-Step Beginner Guide (2026)"
-image: "/images/chatgpt_how_it_works.png"
+image: "/images/projects/build-a-chatbot.png"
 slug: "how-to-build-a-chatbot"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 113
 ---
 
-![How to Build an AI Chatbot](/images/chatgpt_how_it_works.png)
+![How to Build an AI Chatbot](/images/projects/build-a-chatbot.png)
 
 Aaj ke daur mein har business ko ek chatbot chahiye. Chahe wo customer support ho, lead generation ho, ya sirf dosti karne wala bot. Lekin kya aapne kabhi socha hai ki ek **AI Chatbot** piche se kaise kaam karta hai?
 

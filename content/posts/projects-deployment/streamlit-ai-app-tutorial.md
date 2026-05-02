@@ -1,6 +1,6 @@
 ---
 title: "Streamlit se AI App kaise banaye: Python me Frontend Guide"
-image: "/images/ai_dev_workflow.png"
+image: "/images/projects/streamlit-ai-app.png"
 slug: "streamlit-ai-app-tutorial"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 108
 ---
 
-![Building AI Apps with Streamlit](/images/ai_dev_workflow.png)
+![Building AI Apps with Streamlit](/images/projects/streamlit-ai-app.png)
 
 Ek Data Scientist ya ML Engineer ke liye sabse badi problem ye hoti hai ki use Machine Learning toh aati hai, lekin HTML, CSS aur JavaScript nahi aati. Iska matlab kya hum kabhi apni app ka sundar interface nahi bana payenge?
 

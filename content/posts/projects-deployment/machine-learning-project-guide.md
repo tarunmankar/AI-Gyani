@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Project kaise banaye: Step-by-Step Guide"
-image: "/images/ml_workflow_steps.png"
+image: "/images/projects/ml-project-guide.png"
 slug: "machine-learning-project-guide"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 104
 ---
 
-![Machine Learning Project Guide](/images/ml_workflow_steps.png)
+![Machine Learning Project Guide](/images/projects/ml-project-guide.png)
 
 Aapne Machine Learning ke algorithms seekh liye, Python padh li, aur math bhi samajh liya. Lekin ab sawal ye hai ki—**Ek real Machine Learning project kaise banaye?** 
 
