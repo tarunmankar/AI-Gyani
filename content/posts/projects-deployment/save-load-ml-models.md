@@ -1,6 +1,6 @@
 ---
 title: "ML Model Save aur Load kaise karein: Pickle vs Joblib Guide"
-image: "/images/projects/save-load-ml-models.png"
+image: "/images/ai-algorithms-models.png"
 slug: "save-load-ml-models"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 106
 ---
 
-![Model Serialization in Python](/images/projects/save-load-ml-models.png)
+![Model Serialization in Python](/images/ai-algorithms-models.png)
 
 Sochiye aapne ek complex model train kiya jise train hone mein 5 ghante lage. Ab aapne Jupyter Notebook band kardi. Kya agli baar prediction ke liye aapko phir se 5 ghante wait karna padega? 
 

@@ -1,6 +1,6 @@
 ---
 title: "Docker kya hai aur AI me kyon zaroori hai? Simple Guide"
-image: "/images/projects/docker-ai-guide.png"
+image: "/images/mlops_guide.png"
 slug: "docker-for-ai-beginners"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 109
 ---
 
-![Docker for AI and Machine Learning](/images/projects/docker-ai-guide.png)
+![Docker for AI and Machine Learning](/images/mlops_guide.png)
 
 "Lekin ye toh mere laptop par bilkul sahi chal raha tha!"—Ye line har developer kabhi na kabhi bolta hai jab uska code server par fail ho jata hai. 
 

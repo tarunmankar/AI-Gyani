@@ -1,6 +1,6 @@
 ---
 title: "AI Model Deployment Guide: Model ko Production me kaise layein"
-image: "/images/projects/ai-deployment-guide.png"
+image: "/images/mlops_guide.png"
 slug: "ai-model-deployment-guide"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
@@ -14,7 +14,7 @@ tableOfContents: true
 order: 107
 ---
 
-![AI Model Deployment Strategies](/images/projects/ai-deployment-guide.png)
+![AI Model Deployment Strategies](/images/mlops_guide.png)
 
 Aapne model train kiya, API banayi, aur local machine par test bhi kar liya. Lekin ab aap chahte hain ki aapka dost use apne phone par dekh sake. Iske liye humein model ko **Deploy** karna padega.
 
