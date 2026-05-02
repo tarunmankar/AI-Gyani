@@ -6,7 +6,7 @@ author: "Tarun"
 category: "generative-ai-llms"
 categoryLabel: "Generative AI & LLMs"
 tags: ["GPT", "Generative Pre-trained Transformer", "Self-Attention", "Deep Learning", "LLM", "NLP"]
-image: "/images/gpt_logic_ai.png"
+image: "/images/gpt_how_it_works.png"
 featured: false
 relatedPosts: ["chatgpt-kaise-kaam-karta-hai", "llm-kya-hote-hain-large-language-models"]
 readingTime: 25
@@ -15,7 +15,7 @@ order: 77
 slug: "gpt-kaise-kaam-karta-hai"
 ---
 
-![GPT Logic Guide](/images/gpt_logic_ai.png)
+![GPT Logic Guide](/images/gpt_how_it_works.png)
 
 Aapne GPT-3, GPT-4, aur ab GPT-4o ke baare mein suna hoga. Ye "GPT" shabd ka asli matlab kya hai aur iske piche ka engine kaise chalta hai? Ise samajhna thoda complex lag sakta hai, par is guide mein hum ise bilkul simple "Pizza Shop" analogy se samjhenge.
 

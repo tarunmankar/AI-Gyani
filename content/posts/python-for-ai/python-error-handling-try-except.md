@@ -6,7 +6,7 @@ author: "Tarun"
 category: "python-for-ai"
 categoryLabel: "Python for AI"
 tags: ["Python Error Handling", "Try-Except", "Debugging", "Exceptions", "AI Logging", "Clean Code"]
-image: "/images/python_error_handling.png"
+image: "/images/python-error-handling.png"
 featured: false
 relatedPosts: ["python-functions-explained", "python-basics-variables-datatypes"]
 readingTime: 20
@@ -15,7 +15,7 @@ order: 21
 slug: "python-error-handling-try-except"
 ---
 
-![Python Error Handling](/images/python_error_handling.png)
+![Python Error Handling](/images/python-error-handling.png)
 
 Coding mein galtiyan (Bugs) hona "Gunah" nahi hai, unhein handle na karna gunah hai. AI models train karte waqt aksar errors aate hain — kabhi data missing hota hai, toh kabhi GPU memory khatam ho jati hai. Agar aapne **Error Handling** nahi seekhi, toh aapka program beech mein hi "Crash" ho jayega. Is guide mein hum Python ki "Safety Net" (Try-Except) ko samjhenge.
 

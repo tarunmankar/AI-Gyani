@@ -6,7 +6,7 @@ author: "Tarun"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
 tags: ["Chatbot", "AI Chatbot", "RAG", "LLM", "Python", "Streamlit", "OpenAI API", "LangChain"]
-image: "/images/chatbot_guide_ai.png"
+image: "/images/projects/build-a-chatbot.png"
 featured: true
 relatedPosts: ["ai-model-deployment-guide", "prompt-engineering-kya-hai-full-guide"]
 readingTime: 25
@@ -15,7 +15,7 @@ order: 102
 slug: "how-to-build-a-chatbot"
 ---
 
-![AI Chatbot Guide](/images/chatbot_guide_ai.png)
+![AI Chatbot Guide](/images/projects/build-a-chatbot.png)
 
 Aaj har website par ek chatbot hai, par zyadatar chatbots "Boring" hote hain kyonki wo sirf fixed answers dete hain. Lekin ChatGPT ke baad, ab hum **AI Chatbots** bana sakte hain jo insaan ki tarah bhasha samajhte hain. Is guide mein hum ek modern AI chatbot banane ka 3-layer architecture samjhenge.
 

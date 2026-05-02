@@ -6,7 +6,7 @@ author: "Tarun"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
 tags: ["ML Project", "Data Science Lifecycle", "Problem Framing", "EDA", "Model Evaluation", "AI Development"]
-image: "/images/machine_learning_project_guide.png"
+image: "/images/projects/ml-project-guide.png"
 featured: true
 relatedPosts: ["ai-model-deployment-guide", "what-is-machine-learning"]
 readingTime: 25
@@ -15,7 +15,7 @@ order: 103
 slug: "machine-learning-project-guide"
 ---
 
-![Machine Learning Project Guide](/images/machine_learning_project_guide.png)
+![Machine Learning Project Guide](/images/projects/ml-project-guide.png)
 
 Doston, Jupyter Notebook mein code likhna aur ek real ML project banana dono alag-alag baatein hain. Zyadatar beginners sirf `model.fit()` seekhte hain, par real-world mein ye sirf 5% kaam hai. Is guide mein hum ek AI project ke poore 7-step lifecycle ko samjhenge jo aapko ek "Student" se "Professional" banayega.
 

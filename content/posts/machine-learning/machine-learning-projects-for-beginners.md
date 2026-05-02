@@ -6,7 +6,7 @@ author: "Tarun"
 category: "machine-learning"
 categoryLabel: "Machine Learning"
 tags: ["ML Projects", "Portfolio", "Python", "Data Science", "Beginner Projects", "Kaggle"]
-image: "/images/machine_learning_projects_for_beginners.png"
+image: "/images/ml_projects_beginners.png"
 featured: false
 readingTime: 12
 tableOfContents: true
@@ -14,7 +14,7 @@ order: 59
 slug: "machine-learning-projects-for-beginners"
 ---
 
-![Machine Learning Projects](/images/machine_learning_projects_for_beginners.png)
+![Machine Learning Projects](/images/ml_projects_beginners.png)
 
 Theory padhna ek baat hai, par jab aap model train karte hain aur wo "Wrong Prediction" deta hai, asli learning tab hoti hai. Ek accha portfolio wo nahi jisme 50 projects hon, balki wo hai jisme 3-5 aise projects hon jinhe aap end-to-end samjha sakein. Is post mein hum dekhenge beginner-friendly projects aur unhein professional banane ka tareeqa.
 

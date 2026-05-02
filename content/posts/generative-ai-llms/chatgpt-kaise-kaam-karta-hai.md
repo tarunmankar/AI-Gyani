@@ -6,7 +6,7 @@ author: "Tarun"
 category: "generative-ai-llms"
 categoryLabel: "Generative AI & LLMs"
 tags: ["ChatGPT", "RLHF", "OpenAI", "AI Safety", "LLM", "GPT-4"]
-image: "/images/chatgpt_working_logic.png"
+image: "/images/chatgpt_how_it_works.png"
 featured: false
 relatedPosts: ["gpt-kaise-kaam-karta-hai", "prompt-engineering-kya-hai-full-guide"]
 readingTime: 25
@@ -15,7 +15,7 @@ order: 78
 slug: "chatgpt-kaise-kaam-karta-hai"
 ---
 
-![ChatGPT Working Logic](/images/chatgpt_working_logic.png)
+![ChatGPT Working Logic](/images/chatgpt_how_it_works.png)
 
 ChatGPT aaj ghar-ghar mein use ho raha hai, par kya aapne kabhi socha hai ki wo itna "Insaan jaisa" kaise baat karta hai? Normal GPT models aksar ajeeb baatein karte hain, par ChatGPT humein samajhta hai. Iske piche ka asli secret hai **RLHF**. Chaliye is secret ko decode karte hain.
 

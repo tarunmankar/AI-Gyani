@@ -6,7 +6,7 @@ author: "Tarun"
 category: "ai-ethics-future"
 categoryLabel: "AI Ethics & Future"
 tags: ["AI Ethics", "AI Safety", "Bias", "Fairness", "AI Alignment", "Privacy", "Deep Learning Ethics"]
-image: "/images/ai_ethics_future.png"
+image: "/images/ethics/ai-ethics-guide.png"
 featured: true
 readingTime: 20
 tableOfContents: true
@@ -14,7 +14,7 @@ order: 120
 slug: "ai-ethics-kya-hai"
 ---
 
-![AI Ethics Guide](/images/ai_ethics_future.png)
+![AI Ethics Guide](/images/ethics/ai-ethics-guide.png)
 
 AI ki taqat badh rahi hai, par iske saath bade sawal bhi uth rahe hain. Kya AI "Bhedbhav" (Bias) kar sakta hai? Kya AI hamari privacy chheen lega? Ise hi hum **AI Ethics** kehte hain. Ethics matlab wo "Rules aur Values" jo ye tay karte hain ki AI insaano ke liye faydemand rahe, na ki nuksan-deh.
 

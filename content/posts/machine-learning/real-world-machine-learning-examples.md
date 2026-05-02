@@ -6,7 +6,7 @@ author: "Tarun"
 category: "machine-learning"
 categoryLabel: "Machine Learning"
 tags: ["ML Examples", "Real World AI", "Applications", "UPI Fraud", "Healthcare AI", "Netflix Recommendations"]
-image: "/images/real_world_machine_learning_examples.png"
+image: "/images/real_world_ml_examples.png"
 featured: false
 readingTime: 12
 tableOfContents: true
@@ -14,7 +14,7 @@ order: 57
 slug: "real-world-machine-learning-examples"
 ---
 
-![Real World ML Examples](/images/real_world_machine_learning_examples.png)
+![Real World ML Examples](/images/real_world_ml_examples.png)
 
 Bahut log puchte hain: *"Bhai, ye Machine Learning sirf computer science papers mein hai ya asli zindagi mein bhi?"* Sach ye hai ki jab aap apna phone "Face ID" se kholte hain ya Amazon par kuch kharidte hain, toh aap ek powerful ML model se interact kar rahe hote hain. 
 

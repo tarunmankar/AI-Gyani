@@ -6,7 +6,7 @@ author: "Tarun"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
 tags: ["AI Roadmap", "Career Path", "Machine Learning", "Deep Learning", "Mathematics", "Python"]
-image: "/images/complete-ai-roadmap.png"
+image: "/images/projects/ai-project-roadmap.png"
 featured: true
 relatedPosts: ["ai-career-guide", "what-is-ai"]
 readingTime: 25
@@ -15,7 +15,7 @@ order: 104
 slug: "complete-ai-project-roadmap"
 ---
 
-![AI Project Roadmap](/images/complete-ai-roadmap.png)
+![AI Project Roadmap](/images/projects/ai-project-roadmap.png)
 
 "Bhai, AI kahan se shuru karoon?" — Ye question har beginner ka hota hai. Internet par itne saare courses aur tutorials hain ki insaan confuse ho jata hai. Is guide mein main aapko wo "Secret Roadmap" dunga jo maine khud use kiya hai. Ye koi boring roadmap nahi hai, balki ek "Result-Oriented" rasta hai.
 
