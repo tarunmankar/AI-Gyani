@@ -11,8 +11,7 @@ const tutorialSubmenus = [
   { href: '/category/deep-learning', label: 'Deep Learning' },
   { href: '/category/generative-ai-llms', label: 'Generative AI' },
   { href: '/category/ai-tools-frameworks', label: 'Tools & Frameworks' },
-  { href: '/category/projects-deployment', label: 'Projects' },
-  { href: '/category/projects-deployment', label: 'Deployment' },
+  { href: '/category/projects-deployment', label: 'Projects & Deployment' },
   { href: '/category/ai-ethics-future', label: 'Career & Roadmap' },
 ];
 
@@ -51,7 +50,7 @@ export default function Header() {
                 </div>
               </div>
 
-              <Link href="/category/projects-deployment" className={`nav-link${pathname === '/category/projects-deployment' ? ' active' : ''}`}>Projects</Link>
+
               <Link href="/about" className={`nav-link${pathname === '/about' ? ' active' : ''}`}>About</Link>
               <Link href="/contact" className={`nav-link${pathname === '/contact' ? ' active' : ''}`}>Contact</Link>
             </nav>
@@ -91,7 +90,7 @@ export default function Header() {
           ))}
         </div>
         
-        <Link href="/category/projects-deployment" className={`nav-link${pathname === '/category/projects-deployment' ? ' active' : ''}`} onClick={() => setMenuOpen(false)}>Projects</Link>
+
         <Link href="/about" className={`nav-link${pathname === '/about' ? ' active' : ''}`} onClick={() => setMenuOpen(false)}>About</Link>
         <Link href="/contact" className={`nav-link${pathname === '/contact' ? ' active' : ''}`} onClick={() => setMenuOpen(false)}>Contact</Link>
 
