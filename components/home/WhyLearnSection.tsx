@@ -19,7 +19,7 @@ const reasons = [
   {
     icon: '🗺️',
     title: 'Structured Curriculum',
-    desc: '552+ tutorials ek sahi sequence mein — basics se lekar advanced projects tak ka complete roadmap.',
+    desc: 'Dher saare tutorials ek sahi sequence mein — basics se lekar advanced projects tak ka complete roadmap.',
   },
 ];
 

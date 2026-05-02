@@ -31,7 +31,7 @@ export default function BlogPage() {
           <h1 className="section-title">📚 Sab Tutorials</h1>
           <div className="divider" style={{ margin: '12px 0 12px' }} />
           <p style={{ color: 'var(--text-secondary)', fontSize: '1.0625rem', maxWidth: '640px', lineHeight: 1.7 }}>
-            AI Gyani par milenge aapko 552+ tutorials — AI Basics se lekar Generative AI tak, sab Hinglish mein.
+            AI Gyani par milenge aapko tutorials — AI Basics se lekar Generative AI tak, sab Hinglish mein.
             Har ek tutorial carefully likha gaya hai beginners ko dhyan mein rakhkar. Category filter use karke apna topic dhundho.
           </p>
         </div>
