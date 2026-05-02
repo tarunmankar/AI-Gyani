@@ -1,73 +1,85 @@
 ---
-title: "Regression Algorithms Explained: Linear aur Logistic Regression"
-description: "Machine Learning me Regression kya hota hai? Linear Regression aur Logistic Regression ko asaan Hindi examples ke sath samjhein."
-date: "2026-04-28"
+title: "Regression Algorithms: Linear se Ridge/Lasso tak"
+description: "Machine Learning mein Regression kya hai? Linear, Polynomial, aur Regularization (Ridge/Lasso) ko samjhein simple Hindi mein."
+date: "2026-04-30"
 author: "Tarun"
 category: "machine-learning"
 categoryLabel: "Machine Learning"
-tags: ["Machine Learning", "Regression", "Linear Regression", "Logistic Regression"]
+tags: ["Regression", "Linear Regression", "Ridge Regression", "Lasso Regression", "Regularization", "ML Algorithms"]
 image: "/images/regression_algorithms_explained.png"
-slug: "regression-algorithms-explained"
 featured: false
-readingTime: 6
+readingTime: 12
 tableOfContents: true
 order: 42
+slug: "regression-algorithms-explained"
 ---
 
 ![Regression Algorithms](/images/regression_algorithms_explained.png)
 
-Pichli posts me humne dekha ki Supervised Learning me hum computer ko purana data (history) dikhate hain aur wo future ki cheezein predict karta hai. Supervised Learning ke sabse main pillars me se ek hai **Regression**.
+Jab humein kisi continuous number ko predict karna ho (jaise ghar ki price ya stock market), toh hum **Regression** use karte hain. Lekin sirf ek "Straight Line" khinchna kafi nahi hota. Real-world data aksar "Overfit" ho jata hai ya phir bahut "Tedha" (Non-linear) hota hai.
 
-Lekin ye Regression hota kya hai? Aur ML me ye kaise kaam karta hai? Aaiye bilkul simple bhasha me samajhte hain.
+---
 
-## Regression Kya Hota Hai?
+## 1. Linear Regression: The Baseline
 
-Jab aapko kisi aisi cheez ki prediction karni ho jo ek **continuous number** ho (yani jiski value kuch bhi ho sakti hai), wahan Regression use hota hai.
+Linear Regression ek seedhi line dhoondhta hai ($y = mx + c$).
+- **Cost Function:** Model ye dhoondhta hai ki "Galti" (Error) sabse kam kahan hai.
+- **Gradient Descent:** Ye wo "Dheere-dheere utarne" ka rasta hai jisse model apne weights ko optimize karta hai taaki error minimum ho.
 
-**Examples:**
-* Kisi ghar ki keemat kya hogi? (₹50 Lakh, ₹51.5 Lakh, ₹60 Lakh...)
-* Agle mahine stock market ka price kya hoga?
-* Ek student ko exams me kitne marks milenge?
+---
 
-Jab bhi sawal *"Kitna?" (How much?)* hota hai, wahan Regression model lagta hai.
+## 2. Polynomial Regression: Curved Trends
 
-## 1. Linear Regression (Sabse Aasaan Algorithm)
+Har cheez line mein nahi chalti. 
+- Agar aapka data "S" shape ya curve mein hai, toh hum features ki power ($x^2, x^3$) badha dete hain.
+- Ise **Polynomial Regression** kehte hain. Par dhyan rahe, zaroorat se zyada power model ko "Ziddi" (Overfit) bana sakti hai.
 
-Linear Regression, Machine Learning ki "A-B-C-D" hai. Ye sabse simple aur sabse zyada seekha jane wala algorithm hai.
+---
 
-### Ye kaam kaise karta hai?
-Sochiye ki aapke paas data hai: Ghar ka Size (Square feet) aur uski Keemat.
-* 1000 sq ft = ₹50 Lakh
-* 1500 sq ft = ₹75 Lakh
+## 3. Regularization: Ridge aur Lasso
 
-Agar aap is data ko ek graph par draw karein, toh points banenge. **Linear Regression ka ek hi kaam hota hai: In points ke beech se ek aisi seedhi line (Straight Line) nikalna jo saare points ke sabse kareeb ho.** Ise "Best Fit Line" kehte hain.
+Jab model training data ko "Rat" (Memorize) leta hai, toh wo naye data par fail ho jata hai. Isse bachne ke liye hum **Penalty** lagate hain.
+- **Ridge (L2):** Ye weights ko chhota karta hai par zero nahi karta.
+- **Lasso (L1):** Ye faltu features ke weights ko **Zero** kar deta hai (Feature Selection). 
 
-Jab ye line ban jati hai, toh agar koi 1200 sq ft wale naye ghar ki keemat puche, toh hum us line ke base par bata sakte hain ki uski keemat kareeb ₹60 Lakh hogi.
+---
 
-## 2. Polynomial Regression
+## 4. Evaluation: R-squared vs Adjusted R-squared
 
-Kya har data seedhi line me aata hai? Nahi!
-Jaise age aur health ka relationship. Bachpan me health acchi hoti hai, phir badhti hai, aur budhape me girti hai. Ye ek curve banata hai.
-Jab data ek curve jaisa ho, tab hum Linear Regression ki jagah **Polynomial Regression** ka use karte hain, jo seedhi line ki jagah graph par ek curved line banata hai.
+- **R-squared ($R^2$):** Batata hai ki model kitna accha hai (0 se 1 tak).
+- **Adjusted $R^2$:** Ye tab use hota hai jab hamare paas bahut saare features hon. Ye faltu features add karne par score ko "Punish" karta hai.
 
-## 3. Logistic Regression (Naam me Regression, par kaam Classification)
+---
 
-Ye ek thoda confusing concept hai lekin interview me zarur pucha jata hai. 
-Iska naam "Logistic Regression" zaroor hai, lekin **ye Regression nahi, Classification karta hai.** 
+## 5. Summary Table: Regression Types
 
-Yani ye numbers predict nahi karta, balki categories predict karta hai.
-* Ye email Spam hai ya nahi? (Yes/No)
-* Patient ko cancer hai ya nahi? (Yes/No)
+| Algorithm | Best For | Benefit |
+|---|---|---|
+| **Simple Linear** | Straight line trends | Simple & Interpretable |
+| **Polynomial** | Curved trends | Captures non-linearity |
+| **Ridge (L2)** | Reducing Overfitting | Keeps all features |
+| **Lasso (L1)** | Feature Selection | Removes useless features |
 
-### Ye kaise kaam karta hai?
-Ye ek S-shape ki curve (Sigmoid Curve) banata hai. Iska output hamesha 0 aur 1 ke beech (Probability) hota hai. 
-Agar probability 0.5 se zyada hai, toh answer "Yes" hoga, aur agar kam hai toh "No". 
+---
 
-## Summary
+## FAQs
 
-* **Linear Regression:** Numbers aur amounts predict karne ke liye (Jaise: Price, Salary). Graph par seedhi line banata hai.
-* **Logistic Regression:** "Yes/No" ya categories me divide karne ke liye (Jaise: Spam/Not Spam). Graph par S-Curve banata hai.
+**1. Gradient Descent mein "Learning Rate" kya hai?**
+Ye wo "Step size" hai jisse model seekhta hai. Agar ye bahut bada ho toh model rasta bhatak jayega, agar bahut chhota ho toh training mein sadiyan lag jayengi.
 
-Agar aap apna ML career shuru kar rahe hain, toh Linear Regression sabse pehla algorithm hoga jiska aap code likhenge!
+**2. Ridge aur Lasso mein se kaunsa chunu?**
+Agar aapko lagta hai ki aapke saare features important hain, toh Ridge use karein. Agar aapko lagta hai ki kuch hi features kaam ke hain, toh Lasso use karein.
 
-Agli post me hum baaki **Classification Algorithms** (jaise Decision Trees) ke bare me detail me baat karenge.
+**3. "Multicollinearity" kya hoti hai?**
+Jab aapke do inputs aapas mein jude hon (e.g., Temperature in Celsius and Fahrenheit). Ye regression model ko confuse kar dete hain.
+
+**4. RMSE aur MAE mein kya fark hai?**
+RMSE badi galtiyon ko zyada "Saza" (Square) deta hai. MAE sirf average error batata hai. AI mein RMSE zyada popular hai.
+
+---
+
+**Regression Machine Learning ka "Pehla Kadam" hai. Ise samajh kar aap kisi bhi numerical trend ko predict kar sakte hain! 📈**
+
+---
+
+**Tarun ke baare mein:** Tarun predictive modeling aur statistical regularization ke specialist hain. AI-Gyani par har prediction optimized hai.
