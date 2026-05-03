@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       'max-snippet': -1
     } 
   },
-  alternates: { canonical: 'https://www.aigyani.in' },
+  alternates: {},
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },

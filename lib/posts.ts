@@ -45,6 +45,7 @@ export function getAllPosts(): Post[] {
           tableOfContents: data.tableOfContents || false,
           order: data.order || 999,
           image: data.image || '',
+          date: data.date || '2026-05-01',
         } as PostFrontmatter,
         content,
         slug: data.slug || slug,

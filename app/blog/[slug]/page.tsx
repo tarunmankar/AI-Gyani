@@ -34,6 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: `${BASE_URL}/blog/${slug}`,
       type: 'article',
       authors: [frontmatter.author || 'Tarun'],
+      images: frontmatter.image ? [frontmatter.image] : undefined,
     },
     twitter: {
       card: 'summary_large_image',
@@ -60,7 +61,7 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <>
-      <JsonLd type="Article" data={articleSchema({ title: frontmatter.title, description: frontmatter.description, slug, author: frontmatter.author || 'Tarun' })} />
+      <JsonLd type="Article" data={articleSchema({ title: frontmatter.title, description: frontmatter.description, slug, author: frontmatter.author || 'Tarun', image: frontmatter.image, date: frontmatter.date })} />
       <JsonLd type="BreadcrumbList" data={breadcrumbSchema(breadcrumbs)} />
 
       <div className="container">

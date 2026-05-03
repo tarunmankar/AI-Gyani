@@ -19,10 +19,15 @@ export function articleSchema(post: {
   description: string;
   slug: string;
   author: string;
+  image?: string;
+  date?: string;
 }) {
   return {
     headline: post.title,
     description: post.description,
+    image: post.image ? [`https://www.aigyani.in${post.image}`] : undefined,
+    datePublished: post.date || '2026-05-01T00:00:00Z',
+    dateModified: post.date || '2026-05-01T00:00:00Z',
     author: { '@type': 'Person', name: post.author },
     publisher: { '@type': 'Organization', name: 'AI Gyani', url: 'https://www.aigyani.in' },
     url: `https://www.aigyani.in/blog/${post.slug}`,

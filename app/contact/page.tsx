@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact AI Gyani — Tarun Mankar se Baat Karein',
   description: 'AI Gyani se contact karein. Content suggestions, technical sawal, collaboration, ya feedback — hum personally har message padhte hain.',
+  alternates: { canonical: '/contact' },
 };
 
 export default function ContactPage() {

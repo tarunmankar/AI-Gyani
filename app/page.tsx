@@ -9,7 +9,7 @@ import { getFeaturedPosts } from '@/lib/posts';
 export const metadata: Metadata = {
   title: 'AI Gyani — Apni Bhasha Mein AI Seekho',
   description: 'AI Gyani par seekho Artificial Intelligence, Machine Learning, Deep Learning aur Generative AI — bilkul Hinglish mein. Free tutorials by Tarun. Beginners se Advanced tak.',
-  alternates: { canonical: 'https://www.aigyani.in' },
+  alternates: { canonical: '/' },
   openGraph: {
     title: 'AI Gyani — Apni Bhasha Mein AI Seekho',
     description: 'Free AI tutorials in Hinglish — beginners ke liye. AI, ML, Deep Learning, GenAI sab ek jagah.',

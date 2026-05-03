@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms and Conditions',
   description: 'AI Gyani ki Terms and Conditions. Website use karne ke rules aur regulations.',
+  alternates: { canonical: '/terms-conditions' },
 };
 
 export default function TermsConditionsPage() {

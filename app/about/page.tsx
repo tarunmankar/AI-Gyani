@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'About Us — Tarun Mankar | AI Gyani',
   description: 'AI Gyani ke founder Tarun Mankar ke baare mein janiye. Software Engineer aur AI Content Creator jo complex AI topics ko asaan Hinglish mein sikhate hain.',
+  alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {

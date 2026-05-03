@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Disclaimer',
   description: 'AI Gyani ka Disclaimer. Educational purpose aur accuracy se judi zaroori baatein.',
+  alternates: { canonical: '/disclaimer' },
 };
 
 export default function DisclaimerPage() {

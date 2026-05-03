@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy — AI Gyani',
   description: 'AI Gyani ki Privacy Policy. Janiye hum aapka data kaise collect karte hain, use karte hain, aur secure karte hain. Google AdSense cookies aur analytics ke baare mein complete information.',
+  alternates: { canonical: '/privacy-policy' },
 };
 
 export default function PrivacyPolicyPage() {
