@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Post } from '@/lib/types';
 import { formatReadingTime } from '@/lib/utils';
 
@@ -13,10 +14,11 @@ export default function PostCard({ post }: Props) {
     <article className="card post-card" itemScope itemType="https://schema.org/Article">
       {frontmatter.image && (
         <Link href={`/blog/${slug}`} className="post-card-image">
-          <img 
+          <Image 
             src={frontmatter.image} 
             alt={frontmatter.title} 
-            loading="lazy"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </Link>
       )}

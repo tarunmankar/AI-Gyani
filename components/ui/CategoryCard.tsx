@@ -10,20 +10,21 @@ export default function CategoryCard({ category }: Props) {
     <Link
       href={`/category/${category.slug}`}
       className="category-card"
-      style={{ borderLeft: '3px solid var(--primary)' }}
+      style={{ '--cat-color': category.color, '--cat-bg': category.bgColor } as any}
       aria-label={`${category.name} tutorials dekhein`}
     >
-      <span className="category-card-icon" aria-hidden="true">{category.icon}</span>
+      <div className="category-card-watermark" aria-hidden="true">{category.icon}</div>
+      <div className="category-card-icon-wrapper">
+        <span className="category-card-icon" aria-hidden="true">{category.icon}</span>
+      </div>
       <h3 className="category-card-name">{category.name}</h3>
-      <p className="category-card-hinglish" style={{ color: 'var(--primary)' }}>
+      <p className="category-card-hinglish">
         {category.hinglishName}
       </p>
       <p className="category-card-desc">{category.shortDescription}</p>
-      <p className="category-card-count" style={{ color: 'var(--primary)' }}>
-        {category.postCount > 0
-          ? `${category.postCount} tutorials →`
-          : 'Tutorials jald aayenge →'}
-      </p>
+      <div className="category-card-footer">
+        <span className="category-card-arrow">→</span>
+      </div>
     </Link>
   );
 }

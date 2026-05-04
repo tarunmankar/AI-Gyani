@@ -5,7 +5,9 @@ import remarkGfm from 'remark-gfm';
 // Convert markdown to HTML
 export async function markdownToHtml(markdown: string): Promise<string> {
   const result = await remark().use(remarkGfm).use(remarkHtml, { sanitize: false }).process(markdown);
-  return result.toString();
+  const html = result.toString();
+  // Add loading="lazy" to all images
+  return html.replace(/<img(.*?)>/gi, '<img$1 loading="lazy">');
 }
 
 // Add IDs to headings in rendered HTML for TOC linking

@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { Post, PostFrontmatter, TocItem } from './types';
+import { getAllCategories } from '@/content/categories';
 
 const POSTS_DIRECTORY = path.join(process.cwd(), 'content', 'posts');
 
@@ -84,6 +85,48 @@ export function getRelatedPosts(currentSlug: string, relatedSlugs: string[]): Po
   return relatedSlugs
     .map((slug) => allPosts.find((p) => p.slug === slug))
     .filter(Boolean) as Post[];
+}
+
+// Get adjacent posts (prev/next) traversing across categories
+export function getAdjacentPosts(slug: string): { prev: Post | null; next: Post | null } {
+  const currentPost = getPostBySlug(slug);
+  if (!currentPost) return { prev: null, next: null };
+
+  const currentCategorySlug = currentPost.frontmatter.category;
+  const categoryPosts = getPostsByCategory(currentCategorySlug);
+  const currentIndex = categoryPosts.findIndex((p) => p.slug === slug);
+
+  let prev = currentIndex > 0 ? categoryPosts[currentIndex - 1] : null;
+  let next = currentIndex >= 0 && currentIndex < categoryPosts.length - 1 ? categoryPosts[currentIndex + 1] : null;
+
+  const allCategories = getAllCategories();
+  const currentCatIndex = allCategories.findIndex((c) => c.slug === currentCategorySlug);
+
+  // If at the beginning of the category, find the last post of the PREVIOUS category
+  if (!prev && currentCatIndex > 0) {
+    let prevCatIndex = currentCatIndex - 1;
+    while (prevCatIndex >= 0 && !prev) {
+      const prevCatPosts = getPostsByCategory(allCategories[prevCatIndex].slug);
+      if (prevCatPosts.length > 0) {
+        prev = prevCatPosts[prevCatPosts.length - 1];
+      }
+      prevCatIndex--;
+    }
+  }
+
+  // If at the end of the category, find the first post of the NEXT category
+  if (!next && currentCatIndex >= 0 && currentCatIndex < allCategories.length - 1) {
+    let nextCatIndex = currentCatIndex + 1;
+    while (nextCatIndex < allCategories.length && !next) {
+      const nextCatPosts = getPostsByCategory(allCategories[nextCatIndex].slug);
+      if (nextCatPosts.length > 0) {
+        next = nextCatPosts[0];
+      }
+      nextCatIndex++;
+    }
+  }
+
+  return { prev, next };
 }
 
 // Get all post slugs (for generateStaticParams)

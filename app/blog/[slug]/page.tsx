@@ -1,13 +1,13 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getAllPostSlugs, getPostBySlug, getRelatedPosts } from '@/lib/posts';
+import { getAllPostSlugs, getPostBySlug, getRelatedPosts, getAdjacentPosts } from '@/lib/posts';
 import { markdownToHtml, addHeadingIds, formatReadingTime, BASE_URL } from '@/lib/utils';
 import { extractToc } from '@/lib/posts';
 import Breadcrumb from '@/components/blog/Breadcrumb';
 import TableOfContents from '@/components/blog/TableOfContents';
-import RelatedPosts from '@/components/blog/RelatedPosts';
 import ShareButtons from '@/components/blog/ShareButtons';
 import AuthorBio from '@/components/blog/AuthorBio';
+import PostNavigation from '@/components/blog/PostNavigation';
 import JsonLd, { articleSchema, breadcrumbSchema } from '@/components/seo/JsonLd';
 
 interface Props {
@@ -52,6 +52,7 @@ export default async function PostPage({ params }: Props) {
   const htmlContent = addHeadingIds(await markdownToHtml(content));
   const toc = extractToc(content);
   const relatedPosts = getRelatedPosts(slug, frontmatter.relatedPosts || []);
+  const { prev, next } = getAdjacentPosts(slug);
 
   const breadcrumbs = [
     { label: 'Home', href: '/' },
@@ -103,9 +104,9 @@ export default async function PostPage({ params }: Props) {
               itemType="https://schema.org/Article"
               dangerouslySetInnerHTML={{ __html: htmlContent }}
             />
-            <AuthorBio />
             <ShareButtons url={`${BASE_URL}/blog/${slug}`} title={frontmatter.title} />
-            <RelatedPosts posts={relatedPosts} />
+            <PostNavigation prev={prev} next={next} />
+            <AuthorBio />
           </div>
 
           {frontmatter.tableOfContents && toc.length > 0 && (

@@ -56,7 +56,7 @@ export default function CategoryPage({ params }: Props) {
           <div className="cat-hero-inner">
             <span className="cat-hero-icon" aria-hidden="true">{category.icon}</span>
             <div>
-              <h1 className="cat-hero" style={{ fontSize: 'clamp(1.75rem,4vw,2.5rem)', fontWeight: 800, marginBottom: '10px' }}>
+              <h1 style={{ fontSize: 'clamp(1.75rem,4vw,2.5rem)', fontWeight: 800, marginBottom: '10px' }}>
                 {category.name}
               </h1>
               <p style={{ fontSize: '13px', fontWeight: 700, color: category.color, marginBottom: '12px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
