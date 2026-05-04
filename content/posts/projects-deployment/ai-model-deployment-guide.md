@@ -6,7 +6,7 @@ author: "Tarun"
 category: "projects-deployment"
 categoryLabel: "Projects & Deployment"
 tags: ["AI Deployment", "MLOps", "FastAPI", "Docker", "Cloud", "AWS", "Model Serving", "CI/CD"]
-image: "/images/ai_deployment_guide.png"
+image: "/images/projects/ai-deployment-guide.png"
 featured: true
 relatedPosts: ["flask-fastapi-ml-api", "machine-learning-project-guide"]
 readingTime: 25
@@ -15,7 +15,7 @@ order: 101
 slug: "ai-model-deployment-guide"
 ---
 
-![AI Model Deployment Guide](/images/ai_deployment_guide.png)
+![AI Model Deployment Guide](/images/projects/ai-deployment-guide.png)
 
 Aapne model train kar liya, accuracy 95% aa gayi — par ye sirf aapke Jupyter Notebook mein hai. Use asli duniya (Users) tak pahunchane ki process ko **Deployment** kehte hain. Jab tak aapka model ek URL par live nahi hai, tab tak wo sirf ek math file hai. Is guide mein hum model ko live karne ka complete step-by-step process samjhenge taaki aapka project portfolio-ready ho sake.
 
