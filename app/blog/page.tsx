@@ -6,17 +6,17 @@ import JsonLd from '@/components/seo/JsonLd';
 export const metadata: Metadata = {
   title: 'Sab AI Tutorials — Hinglish Mein Seekho',
   description: 'AI Gyani ke sab free tutorials ek jagah — AI Basics, Machine Learning, Deep Learning, Generative AI aur zyada. Beginners ke liye Hinglish mein.',
-  alternates: { canonical: 'https://www.aigyani.in/blog' },
+  alternates: { canonical: 'https://aigyani.in/blog' },
   openGraph: {
     title: 'Sab AI Tutorials | AI Gyani',
     description: 'Free AI tutorials in Hinglish — beginners se advanced tak sab categories.',
-    url: 'https://www.aigyani.in/blog',
+    url: 'https://aigyani.in/blog',
   },
 };
 
 const webPageSchema = {
   name: 'AI Gyani — Sab Tutorials',
-  url: 'https://www.aigyani.in/blog',
+  url: 'https://aigyani.in/blog',
   description: 'All AI tutorials in Hinglish on AI Gyani',
   inLanguage: 'hi-IN',
 };

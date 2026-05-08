@@ -3,7 +3,7 @@ import { getAllPosts } from '@/lib/posts';
 import { getAllCategories } from '@/content/categories';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.aigyani.in';
+  const baseUrl = 'https://aigyani.in';
   const posts = getAllPosts();
   const categories = getAllCategories();
 

@@ -25,13 +25,13 @@ export function articleSchema(post: {
   return {
     headline: post.title,
     description: post.description,
-    image: post.image ? [`https://www.aigyani.in${post.image}`] : undefined,
+    image: post.image ? [`https://aigyani.in${post.image}`] : undefined,
     datePublished: post.date || '2026-05-01T00:00:00Z',
     dateModified: post.date || '2026-05-01T00:00:00Z',
     author: { '@type': 'Person', name: post.author },
-    publisher: { '@type': 'Organization', name: 'AI Gyani', url: 'https://www.aigyani.in' },
-    url: `https://www.aigyani.in/blog/${post.slug}`,
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.aigyani.in/blog/${post.slug}` },
+    publisher: { '@type': 'Organization', name: 'AI Gyani', url: 'https://aigyani.in' },
+    url: `https://aigyani.in/blog/${post.slug}`,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://aigyani.in/blog/${post.slug}` },
     inLanguage: 'hi-IN',
   };
 }
@@ -43,7 +43,7 @@ export function breadcrumbSchema(items: { label: string; href: string }[]) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.label,
-      item: `https://www.aigyani.in${item.href}`,
+      item: `https://aigyani.in${item.href}`,
     })),
   };
 }

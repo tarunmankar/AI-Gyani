@@ -13,13 +13,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'AI Gyani — Apni Bhasha Mein AI Seekho',
     description: 'Free AI tutorials in Hinglish — beginners ke liye. AI, ML, Deep Learning, GenAI sab ek jagah.',
-    url: 'https://www.aigyani.in',
+    url: 'https://aigyani.in',
   },
 };
 
 const websiteSchema = {
   name: 'AI Gyani',
-  url: 'https://www.aigyani.in',
+  url: 'https://aigyani.in',
   description: 'AI tutorials in Hinglish for Indian learners',
   author: { '@type': 'Person', name: 'Tarun' },
   inLanguage: 'hi-IN',

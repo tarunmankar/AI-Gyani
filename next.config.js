@@ -14,6 +14,16 @@ const nextConfig = {
   generateEtags: true,
   // Trailing slash configuration for SEO consistency
   trailingSlash: false,
+  async redirects() {
+    return [
+      {
+        // Handle generic Blogger-style URLs
+        source: '/:year/:month/:slug.html',
+        destination: '/blog/:slug',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

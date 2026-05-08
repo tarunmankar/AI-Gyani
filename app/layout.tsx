@@ -5,7 +5,7 @@ import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.aigyani.in'),
+  metadataBase: new URL('https://aigyani.in'),
   title: {
     default: 'AI Gyani — Apni Bhasha Mein AI Seekho',
     template: '%s | AI Gyani',

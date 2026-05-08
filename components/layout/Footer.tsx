@@ -63,8 +63,8 @@ export default function Footer() {
         <div className="footer-bottom">
           <p>© {new Date().getFullYear()} AI Gyani. Sab rights reserved.</p>
           <p>
-            <Link href="https://www.aigyani.in" style={{ color: '#94a3b8' }}>
-              www.aigyani.in
+            <Link href="https://aigyani.in" style={{ color: '#94a3b8' }}>
+              aigyani.in
             </Link>
           </p>
         </div>

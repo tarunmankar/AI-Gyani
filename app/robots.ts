@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [{ userAgent: '*', allow: '/', disallow: [] }],
-    sitemap: 'https://www.aigyani.in/sitemap.xml',
-    host: 'https://www.aigyani.in',
+    sitemap: 'https://aigyani.in/sitemap.xml',
+    host: 'https://aigyani.in',
   };
 }

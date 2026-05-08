@@ -20,11 +20,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${cat.name} Tutorials — Hinglish Mein`,
     description: cat.description,
-    alternates: { canonical: `https://www.aigyani.in/category/${cat.slug}` },
+    alternates: { canonical: `https://aigyani.in/category/${cat.slug}` },
     openGraph: {
       title: `${cat.name} Tutorials | AI Gyani`,
       description: cat.description,
-      url: `https://www.aigyani.in/category/${cat.slug}`,
+      url: `https://aigyani.in/category/${cat.slug}`,
     },
   };
 }
@@ -46,7 +46,7 @@ export default function CategoryPage({ params }: Props) {
       <JsonLd type="WebPage" data={{
         name: `${category.name} Tutorials | AI Gyani`,
         description: category.description,
-        url: `https://www.aigyani.in/category/${category.slug}`,
+        url: `https://aigyani.in/category/${category.slug}`,
         inLanguage: 'hi-IN',
       }} />
 

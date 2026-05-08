@@ -47,11 +47,11 @@ export function formatReadingTime(minutes: number): string {
 
 // Generate canonical URL
 export function getCanonicalUrl(path: string): string {
-  const baseUrl = 'https://www.aigyani.in';
+  const baseUrl = 'https://aigyani.in';
   return `${baseUrl}${path.startsWith('/') ? path : '/' + path}`;
 }
 
 // Base URL
-export const BASE_URL = 'https://www.aigyani.in';
+export const BASE_URL = 'https://aigyani.in';
 export const SITE_NAME = 'AI Gyani';
 export const DEFAULT_AUTHOR = 'Tarun';
