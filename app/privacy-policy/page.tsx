@@ -11,7 +11,7 @@ export default function PrivacyPolicyPage() {
     <div className="container" style={{ padding: '60px 0' }}>
       <div className="prose" style={{ maxWidth: '800px', margin: '0 auto' }}>
         <h1>Privacy Policy</h1>
-        <p><strong>Last Updated: May 3, 2026</strong></p>
+        <p><strong>Last Updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</strong></p>
 
         <p>
           Welcome to AI Gyani (<strong>aigyani.in</strong>). Hamari website par aapki privacy hamare liye

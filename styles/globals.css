@@ -778,3 +778,25 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     padding: 24px;
   }
 }
+
+/* ── Google Translate Cleanup ── */
+.goog-te-banner-frame,
+.goog-te-balloon-frame,
+#goog-gt-tt,
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.skiptranslate {
+  display: none !important;
+}

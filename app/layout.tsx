@@ -3,6 +3,7 @@ import Script from 'next/script';
 import '@/styles/globals.css';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
+import LanguageTranslator from '../components/layout/LanguageTranslator';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://aigyani.in'),
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('config', 'G-H3F4QH0Y2C');
           `}
         </Script>
+        <LanguageTranslator />
         <Header />
         <main id="main-content">{children}</main>
         <Footer />

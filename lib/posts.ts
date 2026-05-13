@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { Post, PostFrontmatter, TocItem } from './types';
 import { getAllCategories } from '@/content/categories';
+import { replaceDynamicYear } from './utils';
 
 const POSTS_DIRECTORY = path.join(process.cwd(), 'content', 'posts');
 
@@ -33,11 +34,11 @@ export function getAllPosts(): Post[] {
 
       posts.push({
         frontmatter: {
-          title: data.title || '',
+          title: replaceDynamicYear(data.title || ''),
           slug: data.slug || slug,
           category: data.category || categorySlug,
           categoryLabel: data.categoryLabel || '',
-          description: data.description || '',
+          description: replaceDynamicYear(data.description || ''),
           author: data.author || 'Tarun',
           tags: data.tags || [],
           featured: data.featured || false,
@@ -48,9 +49,9 @@ export function getAllPosts(): Post[] {
           image: data.image || '',
           date: data.date || '2026-05-01',
         } as PostFrontmatter,
-        content,
+        content: replaceDynamicYear(content),
         slug: data.slug || slug,
-        excerpt: data.description || content.slice(0, 160).replace(/[#*`]/g, '').trim() + '...',
+        excerpt: replaceDynamicYear(data.description || content.slice(0, 160).replace(/[#*`]/g, '').trim() + '...'),
       });
     }
   }

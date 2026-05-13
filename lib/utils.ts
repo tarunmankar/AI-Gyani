@@ -55,3 +55,10 @@ export function getCanonicalUrl(path: string): string {
 export const BASE_URL = 'https://aigyani.in';
 export const SITE_NAME = 'AI Gyani';
 export const DEFAULT_AUTHOR = 'Tarun';
+
+// Replace dynamic placeholders like [YEAR] or hardcoded 2026 with the current year
+export function replaceDynamicYear(text: string): string {
+  if (!text) return '';
+  const currentYear = new Date().getFullYear().toString();
+  return text.replace(/2026/g, currentYear).replace(/\[YEAR\]/g, currentYear);
+}
