@@ -17,7 +17,7 @@ slug: "gradients-and-optimization"
 
 Ek purana sawaal hai: "Machine learning model training ke waqt actually hota kya hai?" 
 
-Insaan jab seekhta hai, toh wo dimag lagata hai. Lekin computer jab seekhta hai, toh wo sirf ek math operation karta hai jise hum **Optimization** kehte hain. Iska goal simple hai — **Loss (Galti) ko kam se kam karna**. Is process ka sabse bada hero hai **Gradient Descent**.
+Insaan jab seekhta hai, toh wo dimag lagata hai. Lekin computer jab seekhta hai, toh wo sirf ek math operation karta hai jise hum **Optimization** kehte hain. Iska goal simple hai — **Loss (Galti) ko kam se kam karna**. Is process ka sabse bada hero hai **Gradient Descent**, jo [Backpropagation](/blog/backpropagation-explained-hindi) ke saath milkar model ko train karta hai.
 
 ---
 

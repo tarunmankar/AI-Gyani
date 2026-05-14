@@ -52,7 +52,30 @@ Backpropagation mein har layer ke liye calculus solve karna hota hai. Ek model m
 
 ---
 
-## 5. Summary Table: Backprop Cycle
+## 5. Numerical Example (Simulated)
+
+Chaliye ek bahut simple example dekhte hain:
+1. **Input (x):** 2.0
+2. **Current Weight (w):** 0.5
+3. **Target (y):** 1.0 (Hum chahte hain output 1 ho)
+4. **Prediction (p):** $w \cdot x = 0.5 \cdot 2.0 = 1.0$. (Ye toh perfect match hai!)
+
+Lekin agar Target **2.0** hota:
+- **Error (Loss):** $(2.0 - 1.0)^2 = 1.0$
+- **Gradient:** Derivative batayega ki error kis disha mein hai.
+- **Backprop:** Weight ko badhayega (e.g. 0.5 se 0.7 tak) taaki agali baar prediction 2.0 ke kareeb ho.
+
+---
+
+## 6. Challenges in Backpropagation
+
+Kayi baar backpropagation theek se kaam nahi karta. Iske 2 bade reasons hain:
+- **Vanishing Gradients:** Agar network bahut gehra (Deep) hai, toh gradient piche jate-jate itna chota ho jata hai ki shuruati layers ke weights badalte hi nahi. Ise **ReLU activation** se solve kiya jata hai.
+- **Exploding Gradients:** Gradients itne bade ho jate hain ki weights "NaN" (Not a Number) ban jate hain. Ise **Gradient Clipping** se roka jata hai.
+
+---
+
+## 7. Summary Table: Backprop Cycle
 
 | Step | Action | Math Logic |
 |---|---|---|

@@ -76,7 +76,7 @@ Weights hamesha **Random** (Chote numbers) se shuru hote hain. Agar sab zero hon
 Kyonki ismein Hidden Layers ki ginti bahut zyada hoti hai. Agar network mein 100-200 layers hon, toh wo bahut "Gehraai" (Deep) se patterns pehchan sakta hai.
 
 **3. "Backpropagation" kya hai?**
-Ye model ka "Learning Mechanism" hai. Jab model galti karta hai, toh calculus (Chain Rule) use karke wo piche jata hai aur har weight ko thoda sa badal deta hai.
+Ye model ka "Learning Mechanism" hai. Jab model galti karta hai, toh calculus (Chain Rule) use karke wo piche jata hai aur har weight ko thoda sa badal deta hai. Detail mein samajhne ke liye padhein: [Backpropagation Explained](/blog/backpropagation-explained-hindi).
 
 **4. 2026 mein Neural Networks ka trend?**
 Ab hum **Sparse Neural Networks** use kar rahe hain, jo sirf zaroori neurons ko hi activate karte hain taaki bijli aur computing power kam lage.
